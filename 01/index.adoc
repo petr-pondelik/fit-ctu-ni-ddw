@@ -1,1 +1,56 @@
-= HW1 - TBD!
+# Data Acquisition - Web Crawler/Scraper
+
+## Prerequisites
+
+    pip install scrapy
+
+## Experimental web
+
+### Installation
+
+You can use yarn package manager:
+
+    yarn
+
+Or npm package manager:
+
+    npm install
+
+### Run
+
+    node index.js
+
+## Sources to scrape
+
+https://www.sitepoint.com/
+https://www.smashingmagazine.com/
+https://www.sitepoint.com/jobs/
+
+## Robots and sitemap
+
+https://www.smashingmagazine.com/robots.txt
+
+https://www.smashingmagazine.com/sitemap.xml
+
+https://www.sitepoint.com/robots.txt
+
+https://www.sitepoint.com/sitemap.xml
+
+## Tasks
+
+* Scrape articles data metadata
+* Tag articles by mentioned web technologies
+* For each technology, get the number of occurrences
+* Render canvasjs popularity chart
+
+Better:
+
+* Scrape jobs jobs data and metadata
+* Extract tagged technologies for each job
+* For each technology, get the number of occurrences in the jobs offers
+* Render canvasjs popularity chart for technologies by jobs
+
+
+## Sources
+
+https://canvasjs.com/html5-javascript-column-chart/
