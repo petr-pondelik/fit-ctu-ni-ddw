@@ -1,12 +1,12 @@
-# Data Acquisition - Web Crawler/Scraper
+= ata Acquisition - Web Crawler/Scraper
 
-## Prerequisites
+== Prerequisites
 
     pip install scrapy
 
-## Experimental web
+== Experimental web
 
-### Installation
+=== Installation
 
 You can use yarn package manager:
 
@@ -16,17 +16,17 @@ Or npm package manager:
 
     npm install
 
-### Run
+=== Run
 
     node index.js
 
-## Sources to scrape
+== Sources to scrape
 
 https://www.sitepoint.com/
 https://www.smashingmagazine.com/
 https://www.sitepoint.com/jobs/
 
-## Robots and sitemap
+== Robots and sitemap
 
 https://www.smashingmagazine.com/robots.txt
 
@@ -36,7 +36,7 @@ https://www.sitepoint.com/robots.txt
 
 https://www.sitepoint.com/sitemap.xml
 
-## Tasks
+== Tasks
 
 * Scrape articles data metadata
 * Tag articles by mentioned web technologies
@@ -45,12 +45,12 @@ https://www.sitepoint.com/sitemap.xml
 
 Better:
 
-* Scrape jobs jobs data and metadata
+* Scrape jobs data and metadata
 * Extract tagged technologies for each job
 * For each technology, get the number of occurrences in the jobs offers
 * Render canvasjs popularity chart for technologies by jobs
 
 
-## Sources
+== Sources
 
 https://canvasjs.com/html5-javascript-column-chart/

@@ -4,15 +4,15 @@ from typing import List
 from scrapy import Selector
 
 
-class Job:
+class Article:
 
     title: str
     tags: List[str]
     content: str
 
-    def __init__(self, title: str):
+    def __init__(self, title: str, tags: List[str]):
         self.title = title
-        self.tags = []
+        self.tags = tags
         self.content = ''
 
     def serialize(self):
@@ -23,39 +23,36 @@ class Job:
         }
 
 
-class JobParser:
+class ArticleParser:
 
     @staticmethod
-    def parse(jobPost: Selector) -> Job:
-        print(input)
-        print('JobParser')
-        title: str = jobPost.css('h1::text').extract_first()
-        return Job(title)
+    def parse(articleSrc: Selector) -> Article:
+        print('ArticleParser')
+        title: str = articleSrc.css('h1.article-header--title::text').extract_first()
+        print(title)
+        tags: List = articleSrc.css('li.meta-box--tags a::text').extract()
+        print(tags)
+        return Article(title, tags)
 
 
 class RemoteJobsSpider(scrapy.Spider):
 
     name = 'RemoteJobsSpider'
-    start_urls = ['https://www.sitepoint.com/jobs/']
-    allowed_domains = ['sitepoint.com']
+    start_urls = ['https://www.smashingmagazine.com/articles/']
+    allowed_domains = ['smashingmagazine.com']
 
     custom_settings = {
         'DOWNLOAD_DELAY': 1,
         'RANDOMIZE_DOWNLOAD_DELAY': False,
-        # 'DEPTH_LIMIT': 5,
-        # 'CLOSESPIDER_PAGECOUNT': 2
+        'CLOSESPIDER_PAGECOUNT': 10,
+        'LOG_ENABLED': False
     }
 
     def parse(self, response):
-        for jobPost in response.css('#jobPost-module--post_container--2T7O3'):
-            job: Job = JobParser.parse(jobPost)
-            yield job.serialize()
-            # yield {
-            #     'title': jobPost.css('h1::text').extract_first()
-            # }
+        for articleSrc in response.css('article.article'):
+            article: Article = ArticleParser.parse(articleSrc)
+            yield article.serialize()
 
-        for nextPage in response.css('.JobListStyles-sc-1bgcgnh-0 a ::attr(href), #jobPost-module--post_container--2T7O3 a ::attr(href)'):
+        for nextPage in response.css('h1.article--post__title > a ::attr(href), li.pagination__next > a ::attr(href)'):
             yield scrapy.Request(response.urljoin(nextPage.extract()), callback=self.parse)
 
-    def test(self):
-        print('TEST')
