@@ -1,4 +1,4 @@
-= ata Acquisition - Web Crawler/Scraper
+= Data Acquisition - Web Crawler/Scraper
 
 == Prerequisites
 
@@ -19,6 +19,10 @@ Or npm package manager:
 === Run
 
     node index.js
+
+== MongoDB
+
+
 
 == Sources to scrape
 
