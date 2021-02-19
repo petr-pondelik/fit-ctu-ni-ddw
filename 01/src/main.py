@@ -2,18 +2,18 @@ import json
 
 from scrapy.crawler import CrawlerProcess
 
-from spiders.RemoteJobsSpider import RemoteJobsSpider
+from spiders.SmashingArticlesSpider import SmashingArticlesSpider
 
 if __name__ == '__main__':
 
     process = CrawlerProcess({
         "FEEDS": {
-            "jobs.json": {"format": "json"}
+            "smashing_articles.json": {"format": "json"}
         }
     })
-    process.crawl(RemoteJobsSpider)
+    process.crawl(SmashingArticlesSpider)
     process.start()
 
     print('FINISHED')
-    jsonFile = open('jobs.json')
+    jsonFile = open('smashing_articles.json')
     print(json.load(jsonFile))
