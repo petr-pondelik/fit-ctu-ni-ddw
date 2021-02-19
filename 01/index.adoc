@@ -1,60 +1,140 @@
 = Data Acquisition - Web Crawler/Scraper
 
+First homework project for NI-DDW course at CTU. +
+The project is focused on scraping the information about articles on web-development focused platform, acquisition of themes popularity and it's simple visualisation.
+
 == Prerequisites
+
+* Python3
+* pip for Python3 (pip3)
+* Python packages:
 
     pip install scrapy
 
-== Experimental web
+== Run the application
 
-=== Installation
+. Run the MongoDB database within the `mongodb/` directory:
 
-You can use yarn package manager:
+     ./bin/mongod --dbpath ./database/
 
-    yarn
+. Run the scrapy crawler within the `src/scrapy_crawler` directory:
 
-Or npm package manager:
+    scrapy crawl SmashingArticlesSpider
 
-    npm install
+. For results visualisation:
+.. Run the Python server within the `src/server/` directory:
 
-=== Run
+    python3 server.py
 
-    node index.js
+    The server should be listening on `127.0.0.1:8000`.
 
-== MongoDB
+.. Open the HTML/JS client located in `results/client/` directory in you browser.
 
+== Goals
 
+. Extract articles data from https://www.smashingmagazine.com/articles[www.smashingmagazine.com/articles] using web crawler
+** Extracted data should contain at least:
+*** title of the article
+*** author's name
+*** date of publishing
+*** length to read
+*** content tags
+*** content summary
+. Store extracted data into object database
+. Postprocess data and get information about tags popularity within the articles
+. Visualize ten most popular tags
 
-== Sources to scrape
+== Implementation
 
-https://www.sitepoint.com/
-https://www.smashingmagazine.com/
-https://www.sitepoint.com/jobs/
+=== Scrapy crawler
 
-== Robots and sitemap
+Web crawler is implemented using Python scrapy library. +
+Crawler project was created using `scrapy startproject` command. +
 
-https://www.smashingmagazine.com/robots.txt
+It has the following structure:
 
-https://www.smashingmagazine.com/sitemap.xml
+* scrapy_crawler/
+** scrapy.cfg
+** smashing_magazine/
+*** spiders/
+**** SmashingArticlesSpider.py
+*** items.py
+*** middlewares.py
+*** pipelines.py
+*** settings.py
 
-https://www.sitepoint.com/robots.txt
+`SmashingArticlesSpider.py` contains crawler implementation.
 
-https://www.sitepoint.com/sitemap.xml
+`pipelines.py` specifies processes invoked in specific phases of scraping such as storing scraped data into database or computing popularity statistics for articles tags.
 
-== Tasks
+`settings.py` specifies database connection and pipelines to perform.
 
-* Scrape articles data metadata
-* Tag articles by mentioned web technologies
-* For each technology, get the number of occurrences
-* Render canvasjs popularity chart
+=== MongoDB
 
-Better:
+Project contains portable version of MongoDB inside `mongodb/` directory.
 
-* Scrape jobs data and metadata
-* Extract tagged technologies for each job
-* For each technology, get the number of occurrences in the jobs offers
-* Render canvasjs popularity chart for technologies by jobs
+=== Simple Python server
 
+There is a very simple Python server (I don't recommend watching the code) within the `src/server/` directory that provides resources for visualisation client.
 
-== Sources
+=== Simple client for results visualisation
 
-https://canvasjs.com/html5-javascript-column-chart/
+For visualization of popular tags there is a simple HTML/JS client within the `results/client/` directory. +
+The client uses canvasjs library to render visualization graph.
+
+== Results
+
+Acquired data is stored twice. Firstly into MongoDB in database `ddw` as `smashingmagazinearticles` and `tags` collections. Secondly it's stores as a JSON file within the `results/` directory.
+
+Example of acquired data in JSON:
+
+    [
+      {
+        "title": "Building Your Own Personal Learning Curriculum",
+        "author": "Kirsty Simmonds",
+        "published": "2021-02-19",
+        "length": "13 min read",
+        "tags": [
+          "Productivity",
+          "Quick Tips",
+          "Career"
+        ],
+        "summary": "As developers, we\u2019re constantly learning new languages and frameworks. But how can you structure this learning to ensure maximum benefit while still progressing? Here\u2019s how you can devise your own curriculum to keep moving in the right direction."
+      },
+      {
+        "title": "Managing CSS Z-Index In Large Projects",
+        "author": "Steven Frieson",
+        "published": "2021-02-08",
+        "length": "14 min read",
+        "tags": [
+          "CSS",
+          "Tools"
+        ],
+        "summary": "Wrangling z-index values is a difficult task for many developers. Here is an easy-to-implement mini-framework based on existing conventions that brings clarity and confidence to working with z-index."
+      }
+    ]
+
+Based on the article data, the tags statistics are computed, stored into MongoDB collection and visualised by the client.
+
+== Robots policies
+
+The website has defined `robots.txt` at https://www.smashingmagazine.com/robots.txt[www.smashingmagazine.com/robots.txt]. +
+According to the content of the file, there is plenty of URLs that are forbidden for all agents to crawl. +
+I noticed several types of these URLs, for example:
+
+`Disallow: /wp-admin/` restricts access to WordPress administration +
+`Disallow: /wp-includes/* or disallow: /wp-content/uploads/*` restrict access to content that is not supposed to be public
+`Disallow: //provide.smashingmagazine.com/` restrict access to some strange URLs.
+
+== Sitemap
+
+The website has it's sitemap defined at https://www.smashingmagazine.com/sitemap.xml[www.smashingmagazine.com/sitemap.xml]
+
+== Possible issues
+
+According to robots policies, there are some URLs that can't be crawled.
+
+== Issues with crawling
+
+It doesn't apply to this website, but I had many problems with crawling several others websites. +
+The problems were caused by chaotic HTML structure or by the fact that some data I wanted to scrape was generated by JS and scrapy can't identify them (I think it's caused by inability to interpret JS as classic browsers).
