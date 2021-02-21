@@ -1,5 +1,5 @@
 """
- Implements a simple HTTP/1.0 Server
+ Simple HTTP/1.0 Server
 """
 import json
 import socket
@@ -7,8 +7,6 @@ import pymongo
 
 
 # Define socket host and port
-from pymongo.cursor import Cursor
-
 SERVER_HOST = '127.0.0.1'
 SERVER_PORT = 8000
 
@@ -19,9 +17,11 @@ server_socket.bind((SERVER_HOST, SERVER_PORT))
 server_socket.listen(1)
 print('Listening on port %s ...' % SERVER_PORT)
 
+# MongoDB access
 mongo_uri = 'mongodb://localhost:27017'
 mongo_db = 'ddw'
 
+# Create MongoDB connection
 client = pymongo.MongoClient(mongo_uri)
 db = client[mongo_db]
 
@@ -31,9 +31,8 @@ while True:
 
     # Get the client request
     request = client_connection.recv(1024).decode()
-    print(request)
 
-    # tags: list = list(db['tags'].find({"y": {"$gte": 0.2}}, {"_id": 0, "label": 1, "y": 1}))
+    # Find ten most popular tags
     tags: list = list(db['tags'].find({}, {"_id": 0, "label": 1, "y": 1}).sort("y", -1).limit(10))
 
     # Send HTTP response
@@ -43,5 +42,6 @@ while True:
                + "\n"\
                + json.dumps(tags)\
                + '\n'
+
     client_connection.sendall(response.encode())
     client_connection.close()

@@ -4,6 +4,7 @@ import scrapy
 from scrapy import Selector
 
 
+# Class representing article
 class Article:
 
     title: str
@@ -26,6 +27,7 @@ class Article:
         self.summary = summary
 
     def serialize(self):
+        # Return article for serializing
         return {
             'title': self.title,
             'author': self.author,
@@ -40,6 +42,7 @@ class ArticleParser:
 
     @staticmethod
     def parse(articleSrc: Selector) -> Article:
+        # Parse the given element Selector into Article instance
         title: str = articleSrc.css('h1.article-header--title::text').extract_first()
         author: str = articleSrc.css('.bio-image-image::attr(alt)').extract_first()
         published: str = articleSrc.css('.article-header--date::attr(datetime)').extract_first()
@@ -51,10 +54,12 @@ class ArticleParser:
 
 class SmashingArticlesSpider(scrapy.Spider):
 
+    # Set spider name, crawling entry point and limit the crawling
     name = 'SmashingArticlesSpider'
     start_urls = ['https://www.smashingmagazine.com/articles/']
     allowed_domains = ['smashingmagazine.com']
 
+    # Customer spider settings
     custom_settings = {
         'USER_AGENT': 'DDW',
         # 'CLOSESPIDER_PAGECOUNT': 20,
@@ -68,9 +73,12 @@ class SmashingArticlesSpider(scrapy.Spider):
     }
 
     def parse(self, response):
+        # Select articles in HTML response
         for articleSrc in response.css('article.article'):
             article: Article = ArticleParser.parse(articleSrc)
+            # Get article for serialization
             yield article.serialize()
 
+        # Crawl through the links
         for nextPage in response.css('h1.article--post__title > a ::attr(href), li.pagination__next > a ::attr(href)'):
             yield scrapy.Request(response.urljoin(nextPage.extract()), callback=self.parse)
