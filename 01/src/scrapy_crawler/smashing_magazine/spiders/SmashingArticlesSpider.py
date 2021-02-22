@@ -54,7 +54,8 @@ class ArticleParser:
 
 class SmashingArticlesSpider(scrapy.Spider):
 
-    # Set spider name, crawling entry point and limit the crawling
+    # Set spider name and seed URL
+    # Limit the crawling to the domain
     name = 'SmashingArticlesSpider'
     start_urls = ['https://www.smashingmagazine.com/articles/']
     allowed_domains = ['smashingmagazine.com']
