@@ -1,3 +1,5 @@
 .idea/
 /**/__pycache__/
 /**/mongodb/database/*
+/**/.ipynb_checkpoints/
+/02/src/ddw-hw-2/

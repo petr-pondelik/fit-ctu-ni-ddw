@@ -1,5 +1,5 @@
 In the volcanic region of East Africa's Great Rift Valley, tectonic shifts are tearing the continent apart – and releasing unimaginable quantities of clean energy.
-D
+
 Drive along the dusty dirt road that winds through Kenya's Hell's Gate National park, past the zebra, gazelles and giraffes, and you'll see a plume of steam shooting skyward in the distance. Vehicles must sometimes swerve to avoid running over warthogs as they enter a vast valley dotted with dozens of steam vents – a factory of clouds.
 
 Blasts of steam billow loudly, releasing heat from deep within the Earth. But even more powerful is the steam you don't see: that which twists through miles of tubes to push past turbines, generating a type of clean energy that won't run out for millions of years.
@@ -14,8 +14,6 @@ But it in terms of how much we tap this source of power, geothermal lags well be
 
 This is where the continent is breaking up – Anna Mwangi
 To appreciate the potential of this heat, there is nowhere better to look than where it blasts through the surface in the towers of steam erupting from Hell's Gate, around 90 kilometres (56 miles) north-west of Kenya's capital, Nairobi.
-
-Heat from the depths
 
 On cloudy days here, it's hard to tell which clouds come from the sky, and which ones come from the ground. One morning in February, Anna Mwangi, a geophysicist who works for firms including KenGen, is tasked with exploring for new geothermal drill sites. She points at a faint whisp of steam rising from a small hole in the rocky hillside.
 
@@ -47,8 +45,6 @@ The original Olkaria – Kenya's first geothermal power plant, and the first in 
 
 But their work is far from over. A quarter of Kenya's population still lacks electricity. Blackouts are common, hampering the nation's manufacturing sector and making it hard for students who need to study at night or parents to charge their cell phones. "We need to add more power so our nation is lighted like the rest of the world," says Karingithi.
 
-Drillling down
-
 To find the next sources of steam, Mwangi and Karingithi trek as much as 50 kilometers (31 miles) in a single day. They look for sprigs of what they call "geothermal grass" – tall and thin, with green and yellow strands, which hint that heat and moisture may be lying underneath. They collect rock samples, test the water and take the temperature of the ground, all of which feeds into their calculations of whether a new well should be drilled in any particular spot.
 
 Once you identify a strong location, "you need investors not to be faint-hearted", says Karingithi. "Drilling a well costs $6m [£4.3m]. And if you miss, you're sunk." That is the major disadvantage of geothermal, he says. "The capital investment is very high and it puts off many people."
@@ -60,8 +56,6 @@ At Olkaria, wells are tested for about two months to measure their flow rate. Th
 At Olkaria, some of the electricity is generated right at the well sites. These small satellite wells tend to be two to three kilometers deep, each producing about 5 megawatts of energy – enough to power 50,000 Kenyan homes.
 
 As the steam powers the turbines, the water gets injected back into the ground, to make sure the steam wells never run dry. With time it will reheat and return once more as steam.
-
-Steaming ahead
 
 In a country where demand for power outstrips supply, geothermal plants have a few advantages. For one, they can expand quickly. At Olkaria, "the pilot plant took maybe a year to build. The next 14 [wells] were built in four years," says Victoria Nyaga, one of Newson’s former students who is now a sustainable energy engineer and who helped design some power plants at Olkaria. "It's really fast-rolling once you get going."
 
@@ -79,8 +73,6 @@ What's more, Sempui fears that geothermal would disrupt the small tourism indust
 
 "When the geothermal comes up, the conservancy will be destroyed, because there aren't many tourists who will want to put up with all that noise," says Sempui, in reference to the mind-shattering billowing of steam that erupts from geothermal wells when they are being tested or undergoing maintenance.
 
-Closing the loop
-
 As governments and foreign investors spend billions of dollars to connect more of East Africa to the grid, concern for rural pastoralists' land is one of several challenges that will need to be addressed as people turn to geothermal to meet the energy demands of the region's rapidly growing cities.
 
 Another challenge is how to handle the CO2 released by the geothermal fluids and that can occur naturally in hot springs and steam vents. The amount of carbon released by geothermal varies widely from one project to the next, but overall it is still miniscule compared with burning fossil fuels – just 2.7% as much as burning coal, or 5% as much as natural gas.
@@ -92,8 +84,6 @@ More problematic than the CO2, perhaps, is the reinjection of water deep into th
 And then there is the fact that through fracturing rocks, geothermal engineering can, and regularly does, cause seismic activity. On rare occasions, "you can feel the earthquakes. And people don't like that," says Newson. "That generates a lot of distrust and a lot of 'not in my backyard,' for which you can't blame people."
 
 Although infrequent, sometimes the earthquakes are more serious. In November 2017, a geothermal plant caused a 5.5 magnitude earthquake in Pohang, South Korea that left 1,700 people displaced when water injections fractured a previously unknown fault line. Better monitoring and risk management could help avoid large earthquakes like this in the future.
-
-Digging deep
 
 Because geothermal electricity is only a little more than a century old, unlike fossil fuels, its future will most likely be longer than its past. But there's much disagreement over what the next frontier should be.
 
@@ -116,7 +106,7 @@ Across the globe, opportunities for geothermal power exist wherever tectonic pla
 But while these regions might have the most accessible hot geothermal energy, the growing technical expertise in low-temperature geothermal means that more or less anywhere you stand in the world, you don't have to look far to find evidence of the immense power of the Earth's heat.
 
 As permafrost thaws around the world, the steel, concrete and tarmac structures sitting on top are warping and crumbling. Is there anything engineers can do to adapt?
-H
+
 High in the mountains of China, a lonely road snakes its way to Tibet. Running for more than a thousand kilometres, the Qinghai-Tibet Highway has at times carried 85% of all goods in and out of the region. But it was built on shifting sands. Or, rather, melting ground.
 
 Permafrost beneath the highway is thawing, causing the terrain to sag. That in turn flexes and distorts the road itself. Some stretches of the highway are now plagued by large cracks in the asphalt. In other places, the road surface has become wavy and irregular, warping as the ground below crumples.
@@ -133,11 +123,6 @@ The list of structures and buildings known to be damaged by permafrost is long a
 
 Engineers must now reckon with the hazardous fluctuations of once-solid ground. As they do so, they are coming up with innovative ways of cooling the Earth beneath their feet, to try and save human structures from the great, destabilising thaw.
 
-You may also like:
-
-The great thaw of America's north is coming
-The poisons released by melting Arctic ice
-How the Soviet Union's end sparked a grand rewilding
 Guy Doré has seen the local effects for himself. The long cracks in the asphalt of a road can spread so wide that you can get your foot down into the gap. Doré, at Laval University in Canada, has studied the effects of thawing permafrost on built infrastructure for years. "The problems are huge," he says, adding that roughly half of the 3-4,000km (1800-2500 miles) of road constructed in permafrost areas in Canada are at risk of becoming unstable due to thawing: "We’re talking millions of dollars in additional maintenance costs in areas where you don’t have much resource to do it."
 
 Ground settlement due to permafrost melt is a slow, gradual process. If a stretch of asphalt cracks, you can't just resurface it and leave it. As the ground continues to deform, the damage will emerge again, perhaps as soon as a year later.
@@ -188,7 +173,7 @@ Doré says he sometimes hears people say that damage caused by permafrost degrad
 As long as the world keeps warming, ice buried in the ground will keep melting away: damaging buildings, roads and railways. It's already been happening for years – and could get far worse as the slow thaw continues unless we work out a way to halt or reverse it.
 
 Ireland was once a wilderness of temperate rainforest and pristine bogs, where large carnivores and other beasts roamed. What would it take to restore Ireland to its wild state?
-O
+
 On a remote patch of land in the south-west of Ireland lies a precious fragment of a lost world – owned and managed by one man. Eleven years ago, Eoghan Daltun sold his house in Dublin and moved to his new home, an old farm on County Cork's rugged coast. The farm, on the Beara Peninsula, included a strip of native woodland, something that is now incredibly rare in Ireland, as well as Europe. Daltun saw that 32-acre (13-hectare) patch of ancient trees as his very own temperate rainforest – a type of mossy forest once far more common in Britain and Ireland, made possible in part thanks to moist island air.
 
 By pulling out heaps of non-native plants, including rhododendron, and erecting a fence to keep sheep and deer from grazing the area, Daltun gave his forest a chance to flourish and expand. Life has, in fact, exploded.
@@ -284,7 +269,7 @@ A few pioneers are showing the way. As Eoghan Daltun says, "I do think that we n
 "We need nature, you know, on all sorts of different levels."
 
 A string of tiny islands plays an outsized role in defending Germany's coast from the wild North Sea. As sea levels rise, these islands face their greatest challenge yet.
-U
+
 Up to 50 times a year, the North Sea floods the small, flat German island of Nordstrandischmoor where Ruth Hartwig-Kruse lives with her children and grandchildren. In a phenomenon known as "land under", the island almost entirely vanishes beneath the sea. At the peak of these floods, all that can be seen are four man-made mounds with farmhouses and stables. There, the island's 25 inhabitants and their sheep shelter and wait for the water to recede.
 
 Hartwig-Kruse's family has been living with "land under" since her first recorded ancestor arrived on Nordstrandischmoor in 1717. The island is one of 10 Halligen – unique sea-level islands off Germany's North Sea coast. Typically, they are not protected by dykes, leaving them exposed to floods, especially in winter. The largest two, Langeness and Hooge, are home to about 100 people; the smallest, Gröde, to only 10.
@@ -311,8 +296,6 @@ Some 60,000 birds nest and breed on the Halligen. This includes 71% of Germany's
 
 "Building ever-higher dykes on the mainland is not going to work in the long run. The land has to somehow grow with the sea," he argues. If not, the risk is that if the dyke breaks, "it's the perfect catastrophe", because the water will hit the area behind it with full force.
 
-Wild coast
-
 The idyllic Halligen are part of a much bigger ecosystem. They lie in the protected Wadden Sea, an intertidal area that acts as a natural wavebreaker for Germany's North Sea coast, and teems with wildlife. One of the most dramatic features of this ecosystem is the extreme effect of tidal forces. At low tide, the water retreats and exposes the sea floor, allowing people to walk from one island to another, and even to the mainland.
 
 The targeted floods have to be carefully managed within this dynamic landscape, not just to protect the islanders and their livestock, but also to shield nesting birds.
@@ -335,8 +318,6 @@ Even if they were eventually implemented on all the Halligen, the targeted flood
 "If we want to hold on to the Halligen, there are several basic conditions," says Hans-Ulrich Rösner, the director of the WWF's Wadden Sea Office in the German town of Husum. "First, the mounds have to be raised, so people can live there. Second, the land has to grow, and that's only possible through land under. Third, the edges have to be protected from erosion." That last step has already been implemented for some decades, by fortifying the Halligen with stone edges. As a final point, Rösner emphasises that the surrounding Wadden Sea intertidal ecosystem also has to be preserved, because the Halligen ultimately can't exist without it.
 
 All these efforts, Rösner says, are going to be futile unless countries adhere to the Paris Agreement, an international treaty on climate change that aims to limit global warming: "Without well-functioning global climate protection, nothing can be saved here."
-
-Climate mounds
 
 The first of Rösner's recommendations, raising the mounds, is already underway. The state of Schleswig-Holstein is aiming to gradually convert the mounds on the Halligen into so-called "Klimawarften", or "climate mounds", which will resist the rising sea. A climate mound is up to 1.5m (5ft) higher than conventional mounds, broad enough to accommodate future expansions, and has a long, gentle westward slope to take the heft out of the incoming floods, driven by west winds.
 
@@ -369,7 +350,7 @@ Thinking of her ancestors, whose rhythm of life was not that different from hers
 "If they hadn't moved, our family wouldn't be here anymore," she says. "They always thought ahead, before it was too late. And that's what we've learned from them, to tackle problems well in advance."
 
 A sargassum bloom the width of the Atlantic Ocean caused havoc on beaches, but locals in Mexico and the Caribbean are fast finding ways to turn the seaweed invasion to their advantage.
-I
+
 In the summer of 2018, an almost incomprehensibly large mass of stringy brown seaweed appeared in the Atlantic Ocean. It stretched from one coast to the other, from the shores of West Africa to the Gulf of Mexico. Spanning 8,850 kilometres (5,000 miles), the seaweed bloom, known as the great Atlantic sargassum belt, was the largest ever recorded. Researchers analysing satellite images of the bloom estimated its mass to be more than 20 million tonnes – heavier than 200 fully loaded aircraft carriers.
 
 While the 2018 event was a record, sargassum blooms have been a nuisance in the Atlantic for some years, where they harm coastal biodiversity, fisheries and the tourism industry in the Caribbean and Mexico. Barbados declared a national emergency in June 2018 after its shorelines were engulfed by sargassum.

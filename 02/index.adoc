@@ -1,30 +1,558 @@
 = HW2: Text Mining
 
-== Run and deactivate
+== Run project
+
+=== Create environment
 
 [source, bash]
 ----
-# Create env
 virtualenv ddw-hw-2
-
-# Activate env
-source ddw-hw-2/bin/activate
-
-# Install requirements and run the jupyter server
-./bin/run.sh
-
-# Deactivate env
-deactivate
-
-# Remove env
-./bin/remove.sh
-
 ----
 
-== Source
+=== Activate environment
 
-https://www.bbc.com/future/article/20210303-geothermal-the-immense-volcanic-power-beneath-our-feet +
-https://www.bbc.com/future/article/20210303-the-unsure-future-of-roads-and-buildings-on-melting-ground +
-https://www.bbc.com/future/article/20210211-rewilding-can-ireland-regrow-its-wilderness +
-https://www.bbc.com/future/article/20210216-the-islands-that-protect-germany-from-the-north-sea +
-https://www.bbc.com/future/article/20201119-atlantic-ocean-the-largest-seaweed-bloom-in-history
+[source, bash]
+----
+source ddw-hw-2/bin/activate
+----
+
+=== Install requirements and run jupyter server
+
+[source, bash]
+----
+./bin/run.sh
+----
+
+== Clean environment
+
+=== Deactivate environment
+
+[source, bash]
+----
+deactivate
+----
+
+=== Remove environment
+
+[source, bash]
+----
+./bin/remove.sh
+----
+
+== Data used for processing
+
+The data used for processing was collected from https://www.bbc.com/future[BBC's portal Future section]. +
+It consists of following five manually extracted articles.
+
+* https://www.bbc.com/future/article/20210303-geothermal-the-immense-volcanic-power-beneath-our-feet[How Kenya is harnessing the immense heat from the Earth]
+** Article about Geothermal Power Station Olkaria VI located in Kenya.
+* https://www.bbc.com/future/article/20210303-the-unsure-future-of-roads-and-buildings-on-melting-ground[The fragile future of roads and buildings built on permafrost]
+** Article describing the impact that permafrost thawing has on roads.
+* https://www.bbc.com/future/article/20210211-rewilding-can-ireland-regrow-its-wilderness[What would a truly wild Ireland look like?]
+** Article about restoring Ireland wilderness in a specific area.
+* https://www.bbc.com/future/article/20210216-the-islands-that-protect-germany-from-the-north-sea[The islands that protect Germany from the North Sea]
+** Article about so called Halligen islands located in the northern Germany facing the rise of sea levels.
+* https://www.bbc.com/future/article/20201119-atlantic-ocean-the-largest-seaweed-bloom-in-history[The seaweed bloom that covered an ocean]
+** Article about the seaweed covering beaches in Mexico.
+
+== Main results
+
+=== POS tagging
+
+Results total: 6698 +
+
+Top 50 POS results:
+
+    [term, POS, occurrences]
+    =============================================================
+    ["'s", 'POS', 110]
+    ["'s", 'POS', 110]
+    ["'s", 'POS', 110]
+    ['In', 'IN', 43]
+    ['steam', 'NN', 28]
+    ['road', 'NN', 22]
+    ['energy', 'NN', 18]
+    ['see', 'VB', 18]
+    ['Kenya', 'NNP', 17]
+    ['past', 'IN', 13]
+    ['region', 'NN', 12]
+    ['Africa', 'NNP', 7]
+    ['tectonic', 'JJ', 7]
+    ['sometimes', 'RB', 7]
+    ['clean', 'VBP', 6]
+    ['Hell', 'NNP', 6]
+    ['National', 'NNP', 6]
+    ['Rift', 'NNP', 5]
+    ['apart', 'RB', 5]
+    ['Gate', 'NNP', 5]
+    ['East', 'NNP', 4]
+    ['Great', 'NNP', 4]
+    ['Valley', 'NNP', 4]
+    ['continent', 'JJ', 4]
+    ['along', 'IN', 4]
+    ['must', 'MD', 4]
+    ['releasing', 'VBG', 3]
+    ['winds', 'VBZ', 3]
+    ['volcanic', 'JJ', 2]
+    ['shifts', 'NNS', 2]
+    ['quantities', 'NNS', 2]
+    ['park', 'NN', 2]
+    ['giraffes', 'VBP', 2]
+    ["'ll", 'MD', 2]
+    ['avoid', 'JJ', 2]
+    ['tearing', 'VBG', 1]
+    ['unimaginable', 'JJ', 1]
+    ['Drive', 'NNP', 1]
+    ['dusty', 'JJ', 1]
+    ['dirt', 'NN', 1]
+    ['zebra', 'NN', 1]
+    ['gazelles', 'NNS', 1]
+    ['plume', 'JJ', 1]
+    ['shooting', 'VBG', 1]
+    ['skyward', 'JJ', 1]
+    ['distance', 'NN', 1]
+    ['Vehicles', 'NNP', 1]
+    ['swerve', 'VB', 1]
+    ['running', 'VBG', 1]
+    ['warthogs', 'JJ', 1]
+
+=== NER with entity classification (using nltk.ne_chunk)
+
+==== Binary=True
+
+Results total: 179
+Top 50 binary results:
+
+    [term, classification, occurrences]
+    =============================================================
+    ['Ireland', 'NE', 36]
+    ['Hallig', 'NE', 32]
+    ['Halligen', 'NE', 27]
+    ['Olkaria', 'NE', 24]
+    ['Kenya', 'NE', 17]
+    ['Earth', 'NE', 13]
+    ['Atlantic', 'NE', 12]
+    ['German', 'NE', 11]
+    ['Newson', 'NE', 10]
+    ['Karingithi', 'NE', 9]
+    ['Daltun', 'NE', 9]
+    ['Hooge', 'NE', 9]
+    ['Mexico', 'NE', 9]
+    ['Mwangi', 'NE', 8]
+    ['County', 'NE', 8]
+    ['Germany', 'NE', 8]
+    ['Nordstrandischmoor', 'NE', 8]
+    ['Africa', 'NE', 7]
+    ['Hell', 'NE', 6]
+    ['Maasai', 'NE', 6]
+    ['Iceland', 'NE', 6]
+    ['Tibet', 'NE', 6]
+    ['Arctic', 'NE', 6]
+    ['Doré', 'NE', 6]
+    ['Irish', 'NE', 6]
+    ['North Sea', 'NE', 6]
+    ['Deicke', 'NE', 6]
+    ['Morrison', 'NE', 6]
+    ['Olkaria V', 'NE', 5]
+    ['CO2', 'NE', 5]
+    ['Northern Ireland', 'NE', 5]
+    ['Fogarty', 'NE', 5]
+    ['Rösner', 'NE', 5]
+    ['Caribbean', 'NE', 5]
+    ['Wang', 'NE', 5]
+    ['Olkaria VI', 'NE', 4]
+    ['KenGen', 'NE', 4]
+    ['Geothermal', 'NE', 4]
+    ['Rift Valley', 'NE', 4]
+    ['Nyaga', 'NE', 4]
+    ['Canada', 'NE', 4]
+    ['Highway', 'NE', 4]
+    ['Hansen', 'NE', 4]
+    ['Wadden Sea', 'NE', 4]
+    ['Gröde', 'NE', 4]
+    ['East Africa', 'NE', 3]
+    ['Great Rift Valley', 'NE', 3]
+    ['Anna Mwangi', 'NE', 3]
+    ['Suswa', 'NE', 3]
+    ['Sempui', 'NE', 3]
+
+==== Binary=False
+
+Results total: 213
+
+Top 50 results:
+
+    [term, classification, occurrences]
+    =============================================================
+    ['Ireland', 'GPE', 36]
+    ['Hallig', 'PERSON', 32]
+    ['Halligen', 'PERSON', 27]
+    ['Olkaria', 'GPE', 24]
+    ['Kenya', 'PERSON', 17]
+    ['Earth', 'PERSON', 13]
+    ['Atlantic', 'ORGANIZATION', 12]
+    ['German', 'GPE', 11]
+    ['Newson', 'ORGANIZATION', 10]
+    ['Karingithi', 'PERSON', 9]
+    ['Mexico', 'GPE', 9]
+    ['Daltun', 'PERSON', 9]
+    ['Hooge', 'PERSON', 9]
+    ['Mwangi', 'PERSON', 8]
+    ['All', 'PERSON', 8]
+    ['Germany', 'GPE', 8]
+    ['Nordstrandischmoor', 'GPE', 8]
+    ['Africa', 'PERSON', 7]
+    ['Reid', 'PERSON', 7]
+    ['Hell', 'PERSON', 6]
+    ['Maasai', 'PERSON', 6]
+    ['Iceland', 'GPE', 6]
+    ['Arctic', 'ORGANIZATION', 6]
+    ['Doré', 'PERSON', 6]
+    ['Irish', 'GPE', 6]
+    ['North Sea', 'LOCATION', 6]
+    ['Deicke', 'PERSON', 6]
+    ['Allen', 'PERSON', 6]
+    ['Morrison', 'PERSON', 6]
+    ['Gate', 'ORGANIZATION', 5]
+    ['Olkaria V', 'PERSON', 5]
+    ['CO2', 'ORGANIZATION', 5]
+    ['High', 'ORGANIZATION', 5]
+    ['Northern Ireland', 'GPE', 5]
+    ['Fogarty', 'PERSON', 5]
+    ['Rösner', 'PERSON', 5]
+    ['Caribbean', 'LOCATION', 5]
+    ['Wang', 'PERSON', 5]
+    ['Olkaria VI', 'PERSON', 4]
+    ['KenGen', 'ORGANIZATION', 4]
+    ['Geothermal', 'ORGANIZATION', 4]
+    ['Rift Valley', 'PERSON', 4]
+    ['Nyaga', 'PERSON', 4]
+    ['Canada', 'GPE', 4]
+    ['Highway', 'PERSON', 4]
+    ['Hansen', 'PERSON', 4]
+    ['Wadden Sea', 'PERSON', 4]
+    ['Gröde', 'GPE', 4]
+    ['East Africa', 'PERSON', 3]
+    ['Great Rift Valley', 'PERSON', 3]
+
+=== NER with custom patterns
+
+Results total: 296
+
+Top 50 results:
+
+    [term, classification, occurrences]
+    =============================================================
+    ['Ireland', 'NP', 36]
+    ['Hallig', 'NP', 32]
+    ['Halligen', 'NP', 27]
+    ['Olkaria', 'NP', 24]
+    ['Kenya', 'NP', 17]
+    ['As', 'NP', 17]
+    ['Earth', 'NP', 13]
+    ['Atlantic', 'NP', 12]
+    ['Newson', 'NP', 10]
+    ['Hartwig-Kruse', 'NP', 10]
+    ['Karingithi', 'NP', 9]
+    ['Daltun', 'NP', 9]
+    ['Hooge', 'NP', 9]
+    ['Mexico', 'NP', 9]
+    ['Mwangi', 'NP', 8]
+    ['All', 'NP', 8]
+    ['Germany', 'NP', 8]
+    ['Nordstrandischmoor', 'NP', 8]
+    ['Africa', 'NP', 7]
+    ['Reid', 'NP', 7]
+    ['Hell', 'NP', 6]
+    ['Maasai', 'NP', 6]
+    ['Iceland', 'NP', 6]
+    ['Arctic', 'NP', 6]
+    ['Doré', 'NP', 6]
+    ['Republic', 'NP', 6]
+    ['North Sea', 'NP', 6]
+    ['Deicke', 'NP', 6]
+    ['Allen', 'NP', 6]
+    ['Morrison', 'NP', 6]
+    ['Gate', 'NP', 5]
+    ['Olkaria V', 'NP', 5]
+    ['CO2', 'NP', 5]
+    ['Northern Ireland', 'NP', 5]
+    ['Fogarty', 'NP', 5]
+    ["O'Connell", 'NP', 5]
+    ['Rösner', 'NP', 5]
+    ['Caribbean', 'NP', 5]
+    ['Wang', 'NP', 5]
+    ['Olkaria VI', 'NP', 4]
+    ['KenGen', 'NP', 4]
+    ['Geothermal', 'NP', 4]
+    ['Rift Valley', 'NP', 4]
+    ['Nyaga', 'NP', 4]
+    ['Canada', 'NP', 4]
+    ['Hansen', 'NP', 4]
+    ['Europe', 'NP', 4]
+    ['Wadden Sea', 'NP', 4]
+    ['Gröde', 'NP', 4]
+    ['East Africa', 'NP', 3]
+
+=== Custom entity classification (wikipedia-based)
+
+==== NER using nltk.ne_chunk
+
+Top 50 results:
+
+    [input NLTK entity, wikipedia-based classification]
+    =============================================================
+    [['Ireland', 'GPE', 36], 'piece of subcontinental land']
+    [['Hallig', 'PERSON', 32], 'small islands without protective dikes']
+    [['Halligen', 'PERSON', 27], 'small islands without protective dikes']
+    [['Olkaria', 'GPE', 24], 'region']
+    [['Kenya', 'PERSON', 17], 'generic']
+    [['Earth', 'PERSON', 13], 'generic']
+    [['Atlantic', 'ORGANIZATION', 12], 'second-largest of the world']
+    [['German', 'GPE', 11], 'country at the intersection']
+    [['Newson', 'ORGANIZATION', 10], 'generic']
+    [['Karingithi', 'PERSON', 9], 'generic']
+    [['Mexico', 'GPE', 9], 'country in the southern portion']
+    [['Daltun', 'PERSON', 9], 'Goidelic language of the Insular Celtic branch']
+    [['Hooge', 'PERSON', 9], 'generic']
+    [['Mwangi', 'PERSON', 8], 'Kenyan photojournalist']
+    [['All', 'PERSON', 8], 'sorosilicate group of minerals']
+    [['Germany', 'GPE', 8], 'country at the intersection']
+    [['Nordstrandischmoor', 'GPE', 8], 'generic']
+    [['Africa', 'PERSON', 7], 'country']
+    [['Reid', 'PERSON', 7], 'technique wherein']
+    [['Hell', 'PERSON', 6], 'generic']
+    [['Maasai', 'PERSON', 6], 'Nilotic ethnic group']
+    [['Iceland', 'GPE', 6], 'island in the North Atlantic']
+    [['Arctic', 'ORGANIZATION', 6], 'generic']
+    [['Doré', 'PERSON', 6], 'generic']
+    [['Irish', 'GPE', 6], 'islands of Ireland and Great Britain']
+    [['North Sea', 'LOCATION', 6], 'sea of the Atlantic Ocean']
+    [['Deicke', 'PERSON', 6], 'generic']
+    [['Allen', 'PERSON', 6], 'English actor']
+    [['Morrison', 'PERSON', 6], 'fourth largest chain of supermarkets']
+    [['Gate', 'ORGANIZATION', 5], 'structured form of play']
+    [['Olkaria V', 'PERSON', 5], 'power station in Kenya']
+    [['CO2', 'ORGANIZATION', 5], 'colorless gas with a density']
+    [['High', 'ORGANIZATION', 5], 'measure of vertical distance']
+    [['Northern Ireland', 'GPE', 5], 'generic']
+    [['Fogarty', 'PERSON', 5], 'surname of Irish origin']
+    [['Rösner', 'PERSON', 5], 'hostage-taking crisis']
+    [['Caribbean', 'LOCATION', 5], 'region of the Americas']
+    [['Wang', 'PERSON', 5], 'type of fin']
+    [['Olkaria VI', 'PERSON', 4], 'geothermal power station in Kenya']
+    [['KenGen', 'ORGANIZATION', 4], 'parastatal company']
+    [['Geothermal', 'ORGANIZATION', 4], 'thermal energy']
+    [['Rift Valley', 'PERSON', 4], 'linear shaped lowland between several highlands']
+    [['Nyaga', 'PERSON', 4], 'generic']
+    [['Canada', 'GPE', 4], 'country in the northern part']
+    [['Highway', 'PERSON', 4], 'public or private road']
+    [['Hansen', 'PERSON', 4], 'American beverage company']
+    [['Wadden Sea', 'PERSON', 4], 'intertidal zone in the southeastern part']
+    [['Gröde', 'GPE', 4], 'municipality in the district']
+    [['East Africa', 'PERSON', 3], 'eastern subregion of the African continent']
+    [['Great Rift Valley', 'PERSON', 3], 'series of contiguous geographic trenches']
+
+==== NER with custom patterns
+
+    [input custom entity, wikipedia-based classification]
+    =============================================================
+    [['Ireland', 'NP', 36], 'piece of subcontinental land']
+    [['Hallig', 'NP', 32], 'small islands without protective dikes']
+    [['Halligen', 'NP', 27], 'small islands without protective dikes']
+    [['Olkaria', 'NP', 24], 'region']
+    [['Kenya', 'NP', 17], 'generic']
+    [['As', 'NP', 17], 'first letter']
+    [['Earth', 'NP', 13], 'generic']
+    [['Atlantic', 'NP', 12], 'second-largest of the world']
+    [['Newson', 'NP', 10], 'generic']
+    [['Hartwig-Kruse', 'NP', 10], 'German politician for the populist Alternative for Germany']
+    [['Karingithi', 'NP', 9], 'generic']
+    [['Daltun', 'NP', 9], 'Goidelic language of the Insular Celtic branch']
+    [['Hooge', 'NP', 9], 'generic']
+    [['Mexico', 'NP', 9], 'country in the southern portion']
+    [['Mwangi', 'NP', 8], 'Kenyan photojournalist']
+    [['All', 'NP', 8], 'sorosilicate group of minerals']
+    [['Germany', 'NP', 8], 'country at the intersection']
+    [['Nordstrandischmoor', 'NP', 8], 'generic']
+    [['Africa', 'NP', 7], 'country']
+    [['Reid', 'NP', 7], 'technique wherein']
+    [['Hell', 'NP', 6], 'generic']
+    [['Maasai', 'NP', 6], 'Nilotic ethnic group']
+    [['Iceland', 'NP', 6], 'island in the North Atlantic']
+    [['Arctic', 'NP', 6], 'generic']
+    [['Doré', 'NP', 6], 'generic']
+    [['Republic', 'NP', 6], 'form of government']
+    [['North Sea', 'NP', 6], 'sea of the Atlantic Ocean']
+    [['Deicke', 'NP', 6], 'generic']
+    [['Allen', 'NP', 6], 'English actor']
+    [['Morrison', 'NP', 6], 'fourth largest chain of supermarkets']
+    [['Gate', 'NP', 5], 'structured form of play']
+    [['Olkaria V', 'NP', 5], 'power station in Kenya']
+    [['CO2', 'NP', 5], 'colorless gas with a density']
+    [['Northern Ireland', 'NP', 5], 'generic']
+    [['Fogarty', 'NP', 5], 'surname of Irish origin']
+    [["O'Connell", 'NP', 5], 'American singer-songwriter']
+    [['Rösner', 'NP', 5], 'hostage-taking crisis']
+    [['Caribbean', 'NP', 5], 'region of the Americas']
+    [['Wang', 'NP', 5], 'type of fin']
+    [['Olkaria VI', 'NP', 4], 'geothermal power station in Kenya']
+    [['KenGen', 'NP', 4], 'parastatal company']
+    [['Geothermal', 'NP', 4], 'thermal energy']
+    [['Rift Valley', 'NP', 4], 'linear shaped lowland between several highlands']
+    [['Nyaga', 'NP', 4], 'generic']
+    [['Canada', 'NP', 4], 'country in the northern part']
+    [['Hansen', 'NP', 4], 'American beverage company']
+    [['Europe', 'NP', 4], 'continent']
+    [['Wadden Sea', 'NP', 4], 'intertidal zone in the southeastern part']
+    [['Gröde', 'NP', 4], 'municipality in the district']
+    [['East Africa', 'NP', 3], 'eastern subregion of the African continent']
+
+== Results comparison
+
+In the tabular below, we can see comparison of results of implemented entity classification approaches.
+
+We can see that nltk-based classification mislabeled some entities. +
+E.g.:
+
+* Halligen - PERSON
+* Earth - PERSON
+* Africa - PERSON
+* Olkaria VI - PERSON
+* CO2 - ORGANIZATION
+* East Africa - PERSON
+
+Wikipedia-based classification fixed some of these mislabeled classifications:
+
+* Halligen - small islands without protective dikes
+* Olkaria VI - power station in Kenya
+* CO2 - colorless gas with a density
+* East Africa - eastern subregion of the African continent
+
+On the other hand, some classifications remain unknown, are wrong, or are just partially extracted:
+
+* Daltun - Goidelic language of the Insular Celtic branch (here the nltk-based classification is right with PERSON)
+* Earth - generic (unknown)
+* Africa - country (partially wrong)
+* Atlantic - second-largest of the world (extracted correct information, but Wikipedia's summary doesn't contain common phrase)
+* Germany - country at the intersection (partial information extracted)
+
+Finally, wikipedia-based classification using custom patterns contains some different entities detected by custom pattern.
+
+|===
+| nltk-based classification | wikipedia-based classification using nltk entities | wikipedia-based classification using custom patterns
+
+|['Ireland', 'GPE']|['Ireland', 'piece of subcontinental land']|['Ireland', 'NP', 'piece of subcontinental land']
+
+|['Hallig', 'PERSON']|['Hallig', 'small islands without protective dikes']|['Hallig', 'NP', 'small islands without protective dikes']
+
+|['Halligen', 'PERSON']|['Halligen', 'small islands without protective dikes']|['Halligen', 'NP', 'small islands without protective dikes']
+
+|['Olkaria', 'GPE']|['Olkaria', 'region']|['Olkaria', 'NP', 'region']
+
+|['Kenya', 'PERSON']|['Kenya', 'generic']|['Kenya', 'NP', 'generic']
+
+|['Earth', 'PERSON']|['Earth', 'generic']|['As', 'NP', 'first letter']
+
+|['Atlantic', 'ORGANIZATION']|['Atlantic', 'second-largest of the world']|['Earth', 'NP', 'generic']
+
+|['German', 'GPE']|['German', 'country at the intersection']|['Atlantic', 'NP', 'second-largest of the world']
+
+|['Newson', 'ORGANIZATION']|['Newson', 'generic']|['Newson', 'NP', 'generic']
+
+|['Karingithi', 'PERSON']|['Karingithi', 'generic']|['Hartwig-Kruse', 'NP', 'German politician for the populist Alternative for Germany']
+
+|['Mexico', 'GPE']|['Mexico', 'country in the southern portion']|['Karingithi', 'NP', 'generic']
+
+|['Daltun', 'PERSON']|['Daltun', 'Goidelic language of the Insular Celtic branch']|['Daltun', 'NP', 'Goidelic language of the Insular Celtic branch']
+
+|['Hooge', 'PERSON']|['Hooge', 'generic']|['Hooge', 'NP', 'generic']
+
+|['Mwangi', 'PERSON']|['Mwangi', 'Kenyan photojournalist']|['Mexico', 'NP', 'country in the southern portion']
+
+|['All', 'PERSON']|['All', 'sorosilicate group of minerals']|['Mwangi', 'NP', 'Kenyan photojournalist']
+
+|['Germany', 'GPE']|['Germany', 'country at the intersection']|['All', 'NP', 'sorosilicate group of minerals']
+
+|['Nordstrandischmoor', 'GPE']|['Nordstrandischmoor', 'generic']|['Germany', 'NP', 'country at the intersection']
+
+|['Africa', 'PERSON']|['Africa', 'country']|['Nordstrandischmoor', 'NP', 'generic']
+
+|['Reid', 'PERSON']|['Reid', 'technique wherein']|['Africa', 'NP', 'country']
+
+|['Hell', 'PERSON']|['Hell', 'generic']|['Reid', 'NP', 'technique wherein']
+
+|['Maasai', 'PERSON']|['Maasai', 'Nilotic ethnic group']|['Hell', 'NP', 'generic']
+
+|['Iceland', 'GPE']|['Iceland', 'island in the North Atlantic']|['Maasai', 'NP', 'Nilotic ethnic group']
+
+|['Arctic', 'ORGANIZATION']|['Arctic', 'generic']|['Iceland', 'NP', 'island in the North Atlantic']
+
+|['Doré', 'PERSON']|['Doré', 'generic']|['Arctic', 'NP', 'generic']
+
+|['Irish', 'GPE']|['Irish', 'islands of Ireland and Great Britain']|['Doré', 'NP', 'generic']
+
+|['North Sea', 'LOCATION']|['North Sea', 'sea of the Atlantic Ocean']|['Republic', 'NP', 'form of government']
+
+|['Deicke', 'PERSON']|['Deicke', 'generic']|['North Sea', 'NP', 'sea of the Atlantic Ocean']
+
+|['Allen', 'PERSON']|['Allen', 'English actor']|['Deicke', 'NP', 'generic']
+
+|['Morrison', 'PERSON']|['Morrison', 'fourth largest chain of supermarkets']|['Allen', 'NP', 'English actor']
+
+|['Gate', 'ORGANIZATION']|['Gate', 'structured form of play']|['Morrison', 'NP', 'fourth largest chain of supermarkets']
+
+|['Olkaria V', 'PERSON']|['Olkaria V', 'power station in Kenya']|['Gate', 'NP', 'structured form of play']
+
+|['CO2', 'ORGANIZATION']|['CO2', 'colorless gas with a density']|['Olkaria V', 'NP', 'power station in Kenya']
+
+|['High', 'ORGANIZATION']|['High', 'measure of vertical distance']|['CO2', 'NP', 'colorless gas with a density']
+
+|['Northern Ireland', 'GPE']|['Northern Ireland', 'generic']|['Northern Ireland', 'NP', 'generic']
+
+|['Fogarty', 'PERSON']|['Fogarty', 'surname of Irish origin']|['Fogarty', 'NP', 'surname of Irish origin']
+
+|['Rösner', 'PERSON']|['Rösner', 'hostage-taking crisis']|["O'Connell", 'NP', 'American singer-songwriter']
+
+|['Caribbean', 'LOCATION']|['Caribbean', 'region of the Americas']|['Rösner', 'NP', 'hostage-taking crisis']
+
+|['Wang', 'PERSON']|['Wang', 'type of fin']|['Caribbean', 'NP', 'region of the Americas']
+
+|['Olkaria VI', 'PERSON']|['Olkaria VI', 'geothermal power station in Kenya']|['Wang', 'NP', 'type of fin']
+
+|['KenGen', 'ORGANIZATION']|['KenGen', 'parastatal company']|['Olkaria VI', 'NP', 'geothermal power station in Kenya']
+
+|['Geothermal', 'ORGANIZATION']|['Geothermal', 'thermal energy']|['KenGen', 'NP', 'parastatal company']
+
+|['Rift Valley', 'PERSON']|['Rift Valley', 'linear shaped lowland between several highlands']|['Geothermal', 'NP', 'thermal energy']
+
+|['Nyaga', 'PERSON']|['Nyaga', 'generic']|['Rift Valley', 'NP', 'linear shaped lowland between several highlands']
+
+|['Canada', 'GPE']|['Canada', 'country in the northern part']|['Nyaga', 'NP', 'generic']
+
+|['Highway', 'PERSON']|['Highway', 'public or private road']|['Canada', 'NP', 'country in the northern part']
+
+|['Hansen', 'PERSON']|['Hansen', 'American beverage company']|['Hansen', 'NP', 'American beverage company']
+
+|['Wadden Sea', 'PERSON']|['Wadden Sea', 'intertidal zone in the southeastern part']|['Europe', 'NP', 'continent']
+
+|['Gröde', 'GPE']|['Gröde', 'municipality in the district']|['Wadden Sea', 'NP', 'intertidal zone in the southeastern part']
+
+|['East Africa', 'PERSON']|['East Africa', 'eastern subregion of the African continent']|['Gröde', 'NP', 'municipality in the district']
+
+|['Great Rift Valley', 'PERSON']|['Great Rift Valley', 'series of contiguous geographic trenches']|['East Africa', 'NP', 'eastern subregion of the African continent']
+|===
+
+== Issues during implementation
+
+It was difficult to create pattern that would extract some whole information from Wikipedia's summary.
+
+I have problems with ambiguous search results for some searched terms. +
+I solved this problem by trying to search closest (with longest contiguous matching subsequence as similarity metric) of ambiguous options. +
+If the chosen term is ambiguous again, the 'generic' classification is retrieved.
+
+== Ideas for extensions/improvements/future work
+
+Wikipedia ambiguous terms searching and classification extraction pattern could be improved in future.
+
+Fetched entities classifications could be stored into DB and could be used for some simple term-dictionary like application.
