@@ -1,1 +1,30 @@
-= HW2 - TBD!
+= HW2: Text Mining
+
+== Run and deactivate
+
+[source, bash]
+----
+# Create env
+virtualenv ddw-hw-2
+
+# Activate env
+source ddw-hw-2/bin/activate
+
+# Install requirements and run the jupyter server
+./bin/run.sh
+
+# Deactivate env
+deactivate
+
+# Remove env
+./bin/remove.sh
+
+----
+
+== Source
+
+https://www.bbc.com/future/article/20210303-geothermal-the-immense-volcanic-power-beneath-our-feet +
+https://www.bbc.com/future/article/20210303-the-unsure-future-of-roads-and-buildings-on-melting-ground +
+https://www.bbc.com/future/article/20210211-rewilding-can-ireland-regrow-its-wilderness +
+https://www.bbc.com/future/article/20210216-the-islands-that-protect-germany-from-the-north-sea +
+https://www.bbc.com/future/article/20201119-atlantic-ocean-the-largest-seaweed-bloom-in-history

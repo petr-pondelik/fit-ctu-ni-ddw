@@ -1,0 +1,419 @@
+In the volcanic region of East Africa's Great Rift Valley, tectonic shifts are tearing the continent apart – and releasing unimaginable quantities of clean energy.
+D
+Drive along the dusty dirt road that winds through Kenya's Hell's Gate National park, past the zebra, gazelles and giraffes, and you'll see a plume of steam shooting skyward in the distance. Vehicles must sometimes swerve to avoid running over warthogs as they enter a vast valley dotted with dozens of steam vents – a factory of clouds.
+
+Blasts of steam billow loudly, releasing heat from deep within the Earth. But even more powerful is the steam you don't see: that which twists through miles of tubes to push past turbines, generating a type of clean energy that won't run out for millions of years.
+
+Atop this infernal labyrinth of tubes is Kenya's Olkaria Geothermal Project, where a new addition to the powerplant is about to go online. At 86 megawatts, the Olkaria VI expansion will push the project's total production to 791.5 megawatts. That's about 27% of all the energy in Kenya, according to KenGen, the parastatal company that operates Olkaria. Already, Kenya relies on geothermal steam for 38% of its power – a greater proportion than any other nation.
+
+"When Olkaria VI is complete, it will be the largest single geothermal plant in the world," according to Cyrus Karingithi, who leads infrastructure and resource development for Olkaria.
+
+Globally, geothermal energy is a $4.6bn (£3.3bn) industry, with more than 500 powerplants electrifying millions of households across South-east Asia, North America, Europe and beyond. Geothermal is, after all, the second most abundant source of energy in the world behind solar.
+
+But it in terms of how much we tap this source of power, geothermal lags well behind. In 2016, the energy the world harvested from geothermal was just 4% that from solar, despite geothermal having some important advantages. Wind turbines are useless on a still day, and solar panels' energy falls when the sun is covered by clouds and at night. Meanwhile, no matter the time of day, the Earth below us is steadily releasing vast quantities of heat, whatever the weather.
+
+This is where the continent is breaking up – Anna Mwangi
+To appreciate the potential of this heat, there is nowhere better to look than where it blasts through the surface in the towers of steam erupting from Hell's Gate, around 90 kilometres (56 miles) north-west of Kenya's capital, Nairobi.
+
+Heat from the depths
+
+On cloudy days here, it's hard to tell which clouds come from the sky, and which ones come from the ground. One morning in February, Anna Mwangi, a geophysicist who works for firms including KenGen, is tasked with exploring for new geothermal drill sites. She points at a faint whisp of steam rising from a small hole in the rocky hillside.
+
+"You can boil an egg in it," she says with a smile. The area around Olkaria is teeming with natural geothermal vents such as these, some hot enough they burn to the touch. The steam, Mwangi explains, is what gives Hell's Gate National Park its name: The landscape looks like the underworld is boiling over.
+
+This energy is coming from the Earth – and it's essentially limitless – Juliet Newson
+In a way, it is. Some 3,000 kilometers (1,860 miles) down lies the Earth's core, with temperatures hotter than the surface of the Sun. That heat travels upward through the Earth's thick mantle, to the planet's outermost layer – the crust. In places where tectonic plates – consisting of the Earth’s crust, and the upper mantle – are being pushed together or torn apart, this heat rises closer to the surface. One such place is Africa's Great Rift Valley, which runs 7,000km (4,350 miles) across the eastern side of the continent.
+
+"This is where the continent is breaking up," says Mwangi, gesturing to the rocky ridges with deep gorges in between them. These are the visible signs of two vast tectonic plates slowly inching apart. "This is an active process that will go on for several millions of years to come," she says. "In some millions of years if you come here, this will be an ocean."
+
+But in the meantime, this tectonic movement can be exploited for the energy it releases. As tectonic plates move they cause fissures – breaks in the Earth's crust that allow underground water to interact with super-heated rock, turning it into steam. These fissures create pathways up to the Earth's surface, where they form hot springs, geysers or steaming geothermal vents. Here in the Great Rift Valley, much of that heat is trapped just beneath the surface.
+
+"This energy is coming from the Earth – and it's essentially limitless," says Juliet Newson, director of the Iceland School of Energy at Reykjavik University. "Kenya has got a really good resource and that's the Rift Valley. You've got this [incredible] heat that's so near the surface." In other parts of the world, you'd have to drill several kilometers or more to find equivalent temperatures.
+
+Harnessing this energy for electricity is very simple, says Karingithi. "The way we do it at Olkaria, you separate the water from the steam. The steam you take to the turbine, which rotates and generates electricity."
+
+The turbines at Olkaria V whirl at 3,000 rotations per minute, too fast for the human eye to follow. Inside a small control room, two engineers work in 12-hour shifts, staring at a dozen monitors with data from the plant.
+
+Kenya started early. We explored from the 1950s, so we've had many decades of studies and development and successes – Anna Mwangi
+"What is your output today?" Karingithi asks them. One consults a computer screen: "158 megawatts." That's about 5% of the electricity capacity in the country.
+
+All told, Olkaria generates about a quarter of Kenya's power, transmitting some of it nearly 500km (310 miles) south-east to Kenya's port city of Mombasa, and a few hundred kilometers west toward the border with Uganda. Kenya is the eighth largest producer of geothermal energy in the world, behind nations such as the United States, the Philippines, Indonesia, Turkey and New Zealand. Already ahead of Iceland and Japan, it is set to overtake Mexico and Italy once Olkaria VI goes live.
+
+This legacy has been a long time in the making. "Kenya started early," says Mwangi. "We explored from the 1950s, so we've had many decades of studies and development and successes."
+
+And also failures. "Our first wells were terrible," says Mwangi. "That was in 1956. Those wells produced low-pressure steam," says Karingithi, and at the time, the technology wasn't developed enough to use that steam.
+
+The original Olkaria – Kenya's first geothermal power plant, and the first in Africa – came a quarter of a century later, in 1981. Since the 1950s, KenGen, the parastatal company that operates Olkaria, has drilled 310 wells here in Hell's Gate, 125 of which are still steaming today. Two massive new power plants came online in 2014 and 2015, substantially increasing output.
+
+But their work is far from over. A quarter of Kenya's population still lacks electricity. Blackouts are common, hampering the nation's manufacturing sector and making it hard for students who need to study at night or parents to charge their cell phones. "We need to add more power so our nation is lighted like the rest of the world," says Karingithi.
+
+Drillling down
+
+To find the next sources of steam, Mwangi and Karingithi trek as much as 50 kilometers (31 miles) in a single day. They look for sprigs of what they call "geothermal grass" – tall and thin, with green and yellow strands, which hint that heat and moisture may be lying underneath. They collect rock samples, test the water and take the temperature of the ground, all of which feeds into their calculations of whether a new well should be drilled in any particular spot.
+
+Once you identify a strong location, "you need investors not to be faint-hearted", says Karingithi. "Drilling a well costs $6m [£4.3m]. And if you miss, you're sunk." That is the major disadvantage of geothermal, he says. "The capital investment is very high and it puts off many people."
+
+For many geothermal engineers, the most exciting moment comes when you drill a new well – and strike steam. "When you drill a well they open the valve and let the fluid discharge into the atmosphere, the noise and the shaking is incredible – it's just absolutely amazing," says Newson, of what's called a vertical discharge test. "The power that comes out of that well – for 20 years – that's so exciting!"
+
+At Olkaria, wells are tested for about two months to measure their flow rate. Then, the steam is directed either into an on-site mini plant, or through tubes to a larger plant such as Olkaria VI. Because Hell's Gate is home to so much wildlife, in some places the pipes must be lifted several metres above the ground to allow giraffes and other wildlife to pass safely.
+
+At Olkaria, some of the electricity is generated right at the well sites. These small satellite wells tend to be two to three kilometers deep, each producing about 5 megawatts of energy – enough to power 50,000 Kenyan homes.
+
+As the steam powers the turbines, the water gets injected back into the ground, to make sure the steam wells never run dry. With time it will reheat and return once more as steam.
+
+Steaming ahead
+
+In a country where demand for power outstrips supply, geothermal plants have a few advantages. For one, they can expand quickly. At Olkaria, "the pilot plant took maybe a year to build. The next 14 [wells] were built in four years," says Victoria Nyaga, one of Newson’s former students who is now a sustainable energy engineer and who helped design some power plants at Olkaria. "It's really fast-rolling once you get going."
+
+Their size helps too. The small plants that sit upon the wells are less than a football pitch in size and can be dismantled and moved from one well to another when more powerful steam sources are found. "That is a major advantage of geothermal – it requires a very small footprint," says Karingithi. Geothermal requires significantly less land than wind, solar or coal.
+
+That said, a single geothermal well may be tiny, but 300 of them spread across a valley crisscrossed by tubes and transmission lines, access roads and injection pools, makes Olkaria a behemoth. This poses a problem for the pastoralist Maasai who have grazed their cattle across this land on and off for centuries.
+
+To make way for Olkaria's expansions, Kengen relocated 1,181 Maasai from 155 households to a 1,700 acre stretch of land outfitted with houses, churches and schools. "We hope to get the next generation of scientists and engineers from [that same, Maasai] community," says Karingithi.
+
+So far, Olkaria employs 1,250 people but only about 50 are Maasai, and only 20 hail from the community that was displaced. Not many Kenyans have the opportunity to attend university, least of all rural pastoralists. Now, some of the 500 Maasai families who live around Suswa crater to Olkaria's south worry they'll soon be forced out, too. Another geothermal company has begun scouting for geothermal potential around the crater, formed by a now inactive volcano. The company believes the Suswa crater has the potential to generate 750 megawatts of geothermal electricity – as much as Olkaria produces today.
+
+"In Olkaria, those people have been chased away," says Kiano Sempui, a Maasai man and father of three who lives and grazes goats, sheep and cows at Suswa. "We are very sure that when the company comes here, sooner or later, the same will happen to us."
+
+What's more, Sempui fears that geothermal would disrupt the small tourism industry he's worked so hard to create. On weekends, dozens of Kenyan and foreign tourists head up the crater to visit a labyrinth of natural caves, hike along the crater rim for stunning views of the forest below them where leopards live, and to camp under the stars at the edge of a cliff. The conservancy's tourism revenue pays teachers' salaries, hospital bills and repairs roads.
+
+"When the geothermal comes up, the conservancy will be destroyed, because there aren't many tourists who will want to put up with all that noise," says Sempui, in reference to the mind-shattering billowing of steam that erupts from geothermal wells when they are being tested or undergoing maintenance.
+
+Closing the loop
+
+As governments and foreign investors spend billions of dollars to connect more of East Africa to the grid, concern for rural pastoralists' land is one of several challenges that will need to be addressed as people turn to geothermal to meet the energy demands of the region's rapidly growing cities.
+
+Another challenge is how to handle the CO2 released by the geothermal fluids and that can occur naturally in hot springs and steam vents. The amount of carbon released by geothermal varies widely from one project to the next, but overall it is still miniscule compared with burning fossil fuels – just 2.7% as much as burning coal, or 5% as much as natural gas.
+
+Some plants, such as projects in Iceland, capture the carbon and inject it back underground, where it mineralises and becomes harmless. “A project in Iceland, called Carbfix, has been researching this for the last 10 years, and now a large proportion of CO2 from the large Hellisheidi Geothermal Power Station is reinjected deep into the basalt rocks where it forms new minerals which become part of the rocks,” says Newson. (Read more about how Iceland is turning CO2 into stone)
+
+More problematic than the CO2, perhaps, is the reinjection of water deep into the rocks to replenish the steam. The water reinjected “has high concentrations of silica and salts [relative to cold groundwater], and sometimes toxic elements, such as arsenic, lithium, antimony, mercury, sulfur, and many others,” says Newson. In most cases, the water is injected deep enough that it doesn’t interfere with aquifers, but if done wrong it has the potential to pollute sources of drinking water.
+
+And then there is the fact that through fracturing rocks, geothermal engineering can, and regularly does, cause seismic activity. On rare occasions, "you can feel the earthquakes. And people don't like that," says Newson. "That generates a lot of distrust and a lot of 'not in my backyard,' for which you can't blame people."
+
+Although infrequent, sometimes the earthquakes are more serious. In November 2017, a geothermal plant caused a 5.5 magnitude earthquake in Pohang, South Korea that left 1,700 people displaced when water injections fractured a previously unknown fault line. Better monitoring and risk management could help avoid large earthquakes like this in the future.
+
+Digging deep
+
+Because geothermal electricity is only a little more than a century old, unlike fossil fuels, its future will most likely be longer than its past. But there's much disagreement over what the next frontier should be.
+
+Most existing geothermal plants "require a moderately hot reservoir – hot springs, geysers and other geothermal features," says Newson. These are in essence the "low-hanging fruit" of geothermal.
+
+"Anywhere you go, if you drill into the Earth deep enough, it's pretty hot," says Newson. "So why don't we drill deep, fracture it, and get the heat out? It's really tempting. Drilling is fun! But honestly, it's really hard to make it work. It's hard to get the rocks to fracture in the right direction."
+
+For example, one deep drilling initiative in Iceland that goes around 4.6km (2.9 miles) down has met some tough challenges. "There's some harsh chemistry involved, and the equipment is all getting destroyed," says Nyaga. The geothermal fluids dissolve gases such as CO2 that come from the underlying magma. And with temperatures surpassing 400C, these fluids also dissolve minerals out of the rocks. This makes the fluids highly corrosive, and they can cause damage to metal drilling equipment, pipes and cement that holds the equipment in place.
+
+While some engineers race to drill deeper, others think it better to cool off. So-called low-temperature geothermal systems with smaller outputs can be developed inexpensively in places where big powerplants cannot.
+
+Already, "China is one of the top nations for geothermal heat," says Nyaga, and many other countries are experimenting with new ways to generate power from water barely warm enough to brew your tea.
+
+In theory, geothermal power can be produced virtually anywhere you can drill deep enough to release it. Newson says it might someday even be possible to produce geothermal power from the bottom of the sea. Since most of Earth's volcanic activity occurs in the middle of the oceans, where tectonic plates converge or collide, the water there is plenty hot enough to power a turbine.
+
+While Kenya leads Africa as far as tapping geothermal power, the same geological features that power Olkaria exist in half a dozen other nations up and down the Great Rift. Already, KenGen operates 22 wells in Ethiopia and will soon be tapping steam in Djibouti, too.
+
+Across the globe, opportunities for geothermal power exist wherever tectonic plates collide. Many of these sites are in the Global South. "East Africa and Asia – there's a lot of potential in the Philippines and Indonesia," says Nyaga.
+
+But while these regions might have the most accessible hot geothermal energy, the growing technical expertise in low-temperature geothermal means that more or less anywhere you stand in the world, you don't have to look far to find evidence of the immense power of the Earth's heat.
+
+As permafrost thaws around the world, the steel, concrete and tarmac structures sitting on top are warping and crumbling. Is there anything engineers can do to adapt?
+H
+High in the mountains of China, a lonely road snakes its way to Tibet. Running for more than a thousand kilometres, the Qinghai-Tibet Highway has at times carried 85% of all goods in and out of the region. But it was built on shifting sands. Or, rather, melting ground.
+
+Permafrost beneath the highway is thawing, causing the terrain to sag. That in turn flexes and distorts the road itself. Some stretches of the highway are now plagued by large cracks in the asphalt. In other places, the road surface has become wavy and irregular, warping as the ground below crumples.
+
+Researchers in China who have studied these changes over time note that the rate of permafrost melt is increasing, and so too is the rate of damage accumulated on this highway and others. A paper published in April 2020 states that those responsible for building and maintaining roads in permafrost areas in this part of the world face "significant engineering challenges" as thawing exacerbates during the next 100 years. Railway engineers will face similar problems.
+
+In this region – and various other cold climates – permafrost that held fast for thousands of years is now seeping away in the warming ground. Buildings, roads, railways and pipelines constructed in these areas are increasingly at risk of damage.
+
+Melting permafrost poses a danger for the entire world, since it stores huge volumes of carbon that could be released into the atmosphere. But in the near-term, it is people living in these regions who are feeling the impact first because warming is happening faster in the Arctic and mountainous places, for example.
+
+For many centuries, indigenous people living in cold regions were able to adapt with the climate. But when industrialised societies spread out to these remote places, they sought to master the Arctic wilderness with concrete and steel. Unfortunately, industrialisation has also accelerated climate change, bringing warmer winters to these regions.
+
+The list of structures and buildings known to be damaged by permafrost is long and varied. It includes the walls of apartment blocks in the Russian city of Yakutsk, which are now cracking apart. Pipelines in Russia and other countries are at risk of breaking thanks to ground shift, potentially leading to disastrous oil spills. Or take the Our Lady of Victory church in Inuvik, in the Northwest Territories of Canada, where clergy have watched the building warp over the years as the ground subsides below.
+
+Engineers must now reckon with the hazardous fluctuations of once-solid ground. As they do so, they are coming up with innovative ways of cooling the Earth beneath their feet, to try and save human structures from the great, destabilising thaw.
+
+You may also like:
+
+The great thaw of America's north is coming
+The poisons released by melting Arctic ice
+How the Soviet Union's end sparked a grand rewilding
+Guy Doré has seen the local effects for himself. The long cracks in the asphalt of a road can spread so wide that you can get your foot down into the gap. Doré, at Laval University in Canada, has studied the effects of thawing permafrost on built infrastructure for years. "The problems are huge," he says, adding that roughly half of the 3-4,000km (1800-2500 miles) of road constructed in permafrost areas in Canada are at risk of becoming unstable due to thawing: "We’re talking millions of dollars in additional maintenance costs in areas where you don’t have much resource to do it."
+
+Ground settlement due to permafrost melt is a slow, gradual process. If a stretch of asphalt cracks, you can't just resurface it and leave it. As the ground continues to deform, the damage will emerge again, perhaps as soon as a year later.
+
+When people built roads in these isolated areas in the first place, they assumed that ice thawing in the ground could threaten the roads' stability, says Doré. As such, mid-20th Century engineers generally spread gravel on ice-rich ground before building their road on top. This gravel had the effect of insulating the ground below, causing the permafrost layer to rise to a higher level, stabilising the terrain. But in some places this buffer is no longer effective because so much of the ice has thawed.
+
+"We’re at the point where the degradation is happening in the old permafrost, the permafrost that never melted," says Doré.
+
+Climate change may be a major factor behind these changes, but it is not the only one. The dark asphalt used in many roads soaks up heat from the Sun and distributes it to the ground below, which further accelerates thawing.
+
+The damage tends to occur in a localised way. For example, roughly 20% of the Qinghai-Tibet Highway has accumulated damage due to ground settlement to date, while the rest remains relatively stable, for now.
+
+Roughly 20% of the Qinghai-Tibet Highway has accumulated damage due to ground settlement
+Buildings, despite their much smaller footprint, are at risk, too. According to the New York Times, thawing permafrost has led to subsidence and damage in around 1,000 buildings in the Russian city of Yakutsk. With a population of 280,000 people, it is the largest city in the world built in a permafrost area.
+
+A similar story has emerged in Svalbard, the Norwegian archipelago between Norway and the North Pole. Hundreds of homes there have been torn down in recent years because they were built on wooden foundations that have now become unstable on the flexing ground. Unfortunately, such headaches only look set to worsen over time.
+
+In 2020, local researchers recorded the warmest summer in Svalbard since records began. "We saw unprecedented melting in the glaciers and thawing of permafrost," says polar scientist Kim Holmén at the Norwegian Polar Institute.
+
+It's possible to slow the impact on buildings by using sturdier foundations or improving ventilation under the structure. For instance, in some Russian towns, a third or a half of the buildings are thought to have accumulated damage due to permafrost loss – but some of this damage could perhaps have been averted with better maintenance over the years. One estimate, published in 2018, suggested that a third of Arctic's built infrastructure is at risk of permafrost damage in the coming years.
+
+In northern Canada, there is one building that reveals just how difficult it can be to mitigate these pressures. The Our Lady of Victory church in the small town of Inuvik was built in the shape of an igloo 50 years ago. The missionary who oversaw its construction later explained that the cylindrical form of the church was intended to help redistribute stresses from the ground as it froze and thawed over time. The church also sits atop a strong concrete slab in the shape of a giant saucer, with a layer of gravel underneath. This has protected the building from frost warping the ground in the past, but with increased permafrost loss, the church has now begun to tilt – like a concrete-bottomed boat slowly pitching on a sea of moving soil.
+
+Jon Hansen, Catholic Bishop for the Diocese of Mackenzie-Fort Smith, knows the church well. He was once its pastor and now the church is part of his diocese. He says the foundational saucer has begun to crack, the floor now slopes unevenly and in some places has risen up to block doorways. It has got so bad that staff must adjust the interior doors every year, to stop them from sticking in their frames.
+
+"The church is still usable but its future is uncertain," says Hansen.
+
+He adds that he thinks warming temperatures have caused the permafrost to thaw, but the church's problems have likely been exacerbated by increased construction nearby. More buildings mean that the ground is less able to cool down.
+
+In a fight against climate change, staff at the church have explored ways of adjusting the structure to make it more resilient to subsidence, such as replacing wooden posts supporting the building with adjustable steel ones. They have also begun ventilating the crawl space beneath the building's floor, above the concrete foundation, in order to keep the ground below as cold as possible. Local researchers are monitoring these interventions to see whether they prove effective.
+
+The church's design, says Hansen, is a testament to the ingenuity of early Arctic pioneers, but also a warning of how much the global climate is changing. Technology to refreeze the ground and stabilise the church could in theory be installed, but that, says Hansen, would be far beyond the church's budget.
+
+Elsewhere in the Arctic, companies with deep pockets are turning to technology to keep the ground frozen and stable. Some oil companies, for example, install tubes called thermosiphons, which allow heat to escape from the ground and keep it cold, so that the soil supporting their pipelines does not shift enough to endanger their integrity.
+
+Among the firms using this approach is ConocoPhillips. According to the company, the devices contain a fluid that circulates passively, bringing heat from the ground to the surface where it then dissipates. The 1,300km (800 mile) Trans-Alaska Pipeline System uses more than 124,000 of these devices.
+
+Doré and his colleagues have spent years investigating the efficacy of various other techniques designed to keep the ground cool in the face of rising global temperatures. One simple approach is to build road embankments using large stones that have sizeable gaps between them. The gaps act as pores, allowing heat to escape to the surface.
+
+Experiments along the Alaska Highway between 2008 and 2011 revealed how this could keep permafrost frozen throughout the year. Other measures such as using light-coloured road materials and shielding the road embankment under a wooden shed can also mitigate the effects of warming.
+
+At scale, any of these techniques require significant money and effort, meaning they are not always viable options for road builders. On the Tibetan Plateau, various innovative methods have been adopted. Along the Gonghe-Yushu Expressway that winds its way across the permafrost to the east of Qinghai-Tibet highway, porous rock layers and ventilation ducts allow air to bring heat from beneath the road to the surface, cooling the ground.
+
+"Based on several years of performance monitoring, these mitigation methods appear to have been effective," wrote researchers in the 2020 study.
+
+Doré says he sometimes hears people say that damage caused by permafrost degradation won't be a problem for long, because soon the permafrost in these areas will have all melted away, leaving the ground to settle permanently. But permafrost actually melts incredibly slowly. "We're not going to see permafrost go away in the next 30 years," he says. In fact, engineering problems associated with it will probably continue for the next 100 years. And, given the consequences that would be associated with accelerated climate change and total permafrost loss, that's a day no-one should wish for.
+
+As long as the world keeps warming, ice buried in the ground will keep melting away: damaging buildings, roads and railways. It's already been happening for years – and could get far worse as the slow thaw continues unless we work out a way to halt or reverse it.
+
+Ireland was once a wilderness of temperate rainforest and pristine bogs, where large carnivores and other beasts roamed. What would it take to restore Ireland to its wild state?
+O
+On a remote patch of land in the south-west of Ireland lies a precious fragment of a lost world – owned and managed by one man. Eleven years ago, Eoghan Daltun sold his house in Dublin and moved to his new home, an old farm on County Cork's rugged coast. The farm, on the Beara Peninsula, included a strip of native woodland, something that is now incredibly rare in Ireland, as well as Europe. Daltun saw that 32-acre (13-hectare) patch of ancient trees as his very own temperate rainforest – a type of mossy forest once far more common in Britain and Ireland, made possible in part thanks to moist island air.
+
+By pulling out heaps of non-native plants, including rhododendron, and erecting a fence to keep sheep and deer from grazing the area, Daltun gave his forest a chance to flourish and expand. Life has, in fact, exploded.
+
+In late spring, the forest becomes a sea of flowers. "It's just, it's really beautiful," Daltun says. He calls it an "ecological resurgence", explaining that there's been a noticeable increase in the presence of birds and insects, too.
+
+The picture elsewhere is less than leafy. The Republic of Ireland has the lowest forest cover of any country in Europe. It wasn't always that way. Once, 80% of the land here was covered by native trees – the figure now just 1%. Farmland dominates, covering 72% of land in the Republic and 75% of land in Northern Ireland. For an island so often referred to as "green", there's a striking lack of wilderness.
+
+Ireland's dearth of biodiversity has long been noted, and it is getting worse. A 2019 report found that 85% of Ireland's habitats had "unfavourable" conservation status, and nearly half of habitats were in decline.
+
+It's difficult to put into words the sheer joy and pleasure of seeing a wild native ecosystem return on its own steam – Eoghan Daltun
+One option to redress this loss is "rewilding" – the process of returning human-altered land to a more natural, ecologically-rich state. Rewilding could even act to counter climate change, through establishing ecosystems that lock in carbon and reduce greenhouse gas emissions.
+
+Across Ireland, rewilding projects, including Daltun's, are now springing up. But these schemes are sometimes controversial and can prompt heated debates – for example, when environmentalists suggest the reintroduction of large predators, like wolves. Many wonder to what extent Ireland's biodiversity can really be rescued through rewilding. Is it even possible to bring back a long-lost wilderness in the 21st Century?
+
+Daltun's Atlantic rainforest is full of native tree species including oak, birch, willow and hazel. He says by simply clearing out competitive, non-native species and protecting the forest in order to allow it to grow, nature has done a lot of the rewilding work for him. He says he would like the place to serve as an example for other such projects around Ireland.
+
+"It's difficult to put into words the sheer joy and pleasure of seeing a wild native ecosystem return on its own steam," he says.
+
+The term "rewilding", because of the "re" part, conjures up the romantic thought of returning ecosystems to a prior, ideal condition that has since been denuded. While we know that there was significantly more forest cover in Ireland just a few centuries ago, the specifics of ancient ecosystems are often unclear. For instance, there's no evidence of beavers in Ireland but many ecologists argue that wild Irish habitats would suit them. But to what extent? Plus, if rewilding is the goal – what is the target era? The resurrection of wildlife as it was 200 years ago, or 2,000?
+
+If I were to focus my efforts on one thing, I would talk about wolves – Pádraic Fogarty
+For many, the conversation starts with the lost native animals that could in theory be reintroduced. Julian Friers is an artist living in the north of Ireland who has pictured what lost ecosystems looked like – literally. His paintings of extinct Irish animals show long-departed creatures in familiar places. Some are gone forever, such as the woolly mammoths who once plodded around what is now County Antrim in Northern Ireland.
+
+"Whenever I started looking into how many things had become extinct, it just got more and more interesting and took me further and further back, timewise," explains Friers.
+
+Some of his paintings, however, depict potential candidates for reintroduction – including the lynx, which still exists in some parts of Europe, such as Spain. Those paintings act unintentionally as prompts: "Look at this unexpected Irish creature! That's what a successful reintroduction programme could look like." Friers said it would be "fantastic" if his work were used to inspire reintroduction projects.
+
+"It would be just great [to have] things like the lynx back," he says.
+
+But returning large carnivores to the wild in Ireland is a divisive idea. The Green Party in the Republic of Ireland has called for wolves to be reintroduced after 250 years of absence, though there are no official plans to do so yet. It's possible that wolf reintroduction could help in the fight against climate change. Perhaps through controlling non-native deer populations, the grazing of forested and mountainous areas would reduce. That in turn might increase levels of vegetation and the amount of stored carbon, for example.
+
+But no-one really knows whether this benefit would arise and some say bringing wolves back could be dangerous for people and livestock. Ireland, after all, does not have a vast expanse of wilderness akin to the Yellowstone National Park in the US, where conservationists successfully reintroduced wolves in 1995.
+
+And yet for some environmentalists in Ireland, there's no better topic of discussion.
+
+"If I were to focus my efforts on one thing, I would talk about wolves," says Pádraic Fogarty, author and campaign officer for the Irish Wildlife Trust. He argues it's important not to shy away from tricky conversations – and he thinks the very notion of wolf reintroduction gets people thinking about restoring biodiversity, generally.
+
+But there are other, less emotive species, that Fogarty thinks could be reintroduced. These include the corn bunting, a small light brown and rather plump-looking bird, and sturgeon, a large river-dwelling fish that has been extinct in Ireland since 1967.
+
+However, as Neil Reid at Queen's University Belfast points out, it's not always clear what groundwork is needed to ensure reintroduction programmes will go to plan. In 2001, golden eagles were brought back to Ireland in County Donegal's Glenveagh National Park. Although the birds have sustained a population there ever since, their numbers have not grown as expected.
+
+"It was predicted that by now we should have 50 to 60 pairs," says Reid. "We are well short of that." There are, in fact, just 25 known pairs. Reid says surveys by his student have found that there is not enough prey for the eagles in the area, such as hares and red grouse. That might be because the park is being over-grazed by deer and sheep, suggests Reid.
+
+This is why habitat management is so important for any rewilding effort. Fogarty has visited Daltun's reinvigorated forest in County Cork and describes it as "amazing". He says that, on the road to species reintroductions, conservationists could start by following this example of preparing suitable habitats, encouraging fragmented patches of native forest, peatland and wetland around Ireland to expand.
+
+The vast majority of the trees that do exist in Ireland today, explains Fogarty, are actually in non-native commercial plots, such as dense pine tree plantations. "Which is mostly very low biodiversity," he says, adding that he would like to see 30% to 40% of the island carpeted in native forest or wetland.
+
+There are schemes afoot in this vein. Take the 11,000 hectare (42 sq mile) wilderness area in the Nephin Beg mountains of County Mayo. Here, 4,000 hectares (15 sq miles) of non-native pine are to be transformed into a patchwork of native trees and wetland. And there are tree-planting efforts, too. The devolved government in Northern Ireland currently plans to plant 18 million new trees by 2030. Half will be native species and, among those, one million are to be planted by Northern Ireland Water.
+
+Then, of course, there are the bogs. Ireland is famous for its once plentiful peatlands – notable because this type of wetland can store more carbon than similar-sized patches of forest when left intact. More, even, than tropical rainforest such as the Amazon. But Ireland's pristine raised bogs have dwindled to just 1% of the area they used to cover.
+
+Huge volumes of peat were extracted and burned as a means of generating heat or electricity. The use of peat as an energy resource will end in the Republic of Ireland by 2028 but large tracts of exploited peatland have been left barren, says Catherine O'Connell, who was chief executive of the Irish Peatland Conservation Council until December. In winter, these areas become muddy and treacherous, with little or no plant life. And in the summer, they dry out into great seas of dust.
+
+"It's a desert – it's a brown desert," says O'Connell.
+
+There are efforts to re-wet some peatlands and encourage the sphagnum moss that grows on them to flourish again. This would benefit a variety of insects and birds. But in 21st-Century Ireland, simply giving land back to nature is sometimes unpopular. People, understandably, don't want commercial opportunities to go to waste. O'Connell thinks compromises are possible.
+
+"Develop windfarms and wetlands together on these sites," she says. "You can have your windmills but they're going to be in a wetland."
+
+There are examples of windfarms that have been designed in exactly this way – such as the 80 megawatt Mount Lucas Wind Farm in County Offaly. O'Connell describes this as "probably the best attempt" to allow exploited peatland to return to a more natural state, while retaining some commercial function.
+
+Reinvigorated wetlands and peatlands could attract tourists, local school groups, or people looking for somewhere full of wildlife in which to exercise – if managed properly, such attractions could be part of how rewilding projects sell themselves to the public, adds O'Connell. (Read more on County Offaly's plans to put drained bogs to new uses)
+
+But peatlands are, in land-area terms, a relatively small part of the puzzle. With such vast areas devoted to farming in Ireland, reintroducing wilderness to farms is one of the greatest challenges ahead.
+
+Reid says getting to grips with this issue is crucial. He points to the fact that significant proportion of Irish farms are not economically viable. Research from the Republic of Ireland's agricultural research agency Teagasc suggests that a third of farms are in this situation. Because government subsidies are already used to keep some farms afloat, Reid and others wonder why the money could not instead be used to pay for rewilding projects on economically defunct farms. Food production could be intensified, if necessary, on more successful farms.
+
+"The only equation that works is to release that land that is suboptimal, to allow nature back into those parts," says Reid.
+
+But rewilding schemes that affect farmland are not welcomed by some farmers, as they may hinder their ability to work. There's also little clarity on how sustainable such projects might be – would they always guarantee future income for former farmers whose land is now subject to rewilding efforts?
+
+Jane Stout at Trinity College Dublin thinks the way forward might be to allow farmers to take control of the solutions themselves. She points to The Burren Programme, a scheme in the west of Ireland that has channelled public funding to farmers who themselves nominate and manage conservation projects on their own land, such as wildlife habitat restoration.
+
+Government subsidies could encourage this sort of practice on farms all over the country, suggests Stout. Most farms have hedgerows, lands, ditches or even patches of wetland and forest. At the moment, however, farmers have little incentive to conserve them.
+
+"These things that are part of the traditional farmed landscape are really high-quality elements for biodiversity," says Stout. "I think it's really important that in the next round of farm subsidies and payments, there is proper recognition for the value of these non-farmed habitats."
+
+Andrew Bergin is a farmer in County Kildare. He produces cereals, legumes such as peas and other crops. He also belongs to a group of farmers aiming to reduce their dependency on pesticides while taking better care of wildlife habitats, such as hedgerows.
+
+For the past six years or so, Bergin has experimented with a 10-hectare (25-acre) plot on his farm. His experiment involves using fewer chemicals and monitoring the microbiology of the soil.
+
+"We're trying to stimulate the biology in the ground," he says. "We haven't used an insecticide in, I think, at least five years."
+
+He's almost stopped cutting back hedgerows, too – except for when growth presents an obstruction to vehicles on farm tracks, for example.
+
+It's still early to say whether switching to more nature-friendly farming is sustainable and effective but Bergin has been encouraged by a noticeable boom in birdlife on his farm. "You have larks by the dozen here," he says, full of enthusiasm.
+
+The more you look at it, the more rewilding, in practice, looks less like a throwback to the past and more like a vision of a very different future. Ireland is an island that has been drastically changed by humanity but it is nonetheless a place packed with wild potential. Unlocking that potential could drastically improve biodiversity on the island and that, in turn, could help Northern Ireland and the Republic of Ireland meet their various climate targets. Targets that are, incidentally, still a long way from being met.
+
+A few pioneers are showing the way. As Eoghan Daltun says, "I do think that we need to start looking to strike a different kind of balance.
+
+"We need nature, you know, on all sorts of different levels."
+
+A string of tiny islands plays an outsized role in defending Germany's coast from the wild North Sea. As sea levels rise, these islands face their greatest challenge yet.
+U
+Up to 50 times a year, the North Sea floods the small, flat German island of Nordstrandischmoor where Ruth Hartwig-Kruse lives with her children and grandchildren. In a phenomenon known as "land under", the island almost entirely vanishes beneath the sea. At the peak of these floods, all that can be seen are four man-made mounds with farmhouses and stables. There, the island's 25 inhabitants and their sheep shelter and wait for the water to recede.
+
+Hartwig-Kruse's family has been living with "land under" since her first recorded ancestor arrived on Nordstrandischmoor in 1717. The island is one of 10 Halligen – unique sea-level islands off Germany's North Sea coast. Typically, they are not protected by dykes, leaving them exposed to floods, especially in winter. The largest two, Langeness and Hooge, are home to about 100 people; the smallest, Gröde, to only 10.
+
+In the past, violent storm floods split or even drowned entire Halligen. But the regular floods also bring sediment that helps the land grow, and nurture salt marshes where birds and plants flourish. For some species of bird, the islands host more than half of Germany's nesting population.
+
+Now the Halligen are facing their biggest threat yet: climate change, and the rising sea levels that come with it.
+
+The German coastal state of Schleswig-Holstein, which includes the Halligen, is spending millions of euros to enlarge the mounds on which the islanders live, preparing for a sea level rise of up to 1 metre (3.3ft) by 2100. It is also funding research into a measure that may seem counter-intuitive: flooding the islands even more, to add layers of sediment and help them grow with the sea.
+
+We have to find ways of letting our Hallig grow, so that we don't end up sitting on a super-duper high mound, and experience land under every day – Ruth Hartwig-Kruse
+"We have to find ways of letting our Hallig grow, so that we don't end up sitting on a super-duper high mound, and experience land under every day," says Hartwig-Kruse, who is the mayor of Nordstrandischmoor as well as a larger neighbouring peninsula.
+
+Matthias Deicke, a geologist at the Georg-August University in Göttingen, has been measuring the Halligen's progress since 2007. He estimates that they should be growing 4-5mm a year to keep up with the sea. Currently, none of them do.
+
+Hooge is the only Hallig with a so-called closed summer dyke, meaning, a low dyke that completely surrounds the island and is designed to keep out lighter floods. Other Halligen have small barriers that are even lower than dykes, and fortified edges to stop erosion. Hooge's barrier means it usually experiences land under only two or three times a year and is essentially not growing at all, according to Deicke. Nordstrandischmoor is only growing by about 1-2mm a year, he says, despite its abundant floods.
+
+Over the past three winters, Hartwig-Kruse's family and Deicke have tested different ways to help the sea wash more sediment onto Nordstrandischmoor.
+
+They have cut a gap into the low stone barrier that protects island from very mild floods, and opened its flood gates during winter storms. They also installed an upwards pipe through the barrier. During winter floods, storms and high tide push sediment-rich water from the lower depths of the sea directly onto the island.
+
+Some 60,000 birds nest and breed on the Halligen. This includes 71% of Germany's total breeding population of sandwich terns
+"The Halligen are a great thing for science, because we can test methods here that we could perhaps apply to other regions, too," says Deicke. He sees potential lessons for Germany's North Sea coast, but also the United States' East Coast, and any other low-lying coastlines seeking to prepare for rising sea levels.
+
+"Building ever-higher dykes on the mainland is not going to work in the long run. The land has to somehow grow with the sea," he argues. If not, the risk is that if the dyke breaks, "it's the perfect catastrophe", because the water will hit the area behind it with full force.
+
+Wild coast
+
+The idyllic Halligen are part of a much bigger ecosystem. They lie in the protected Wadden Sea, an intertidal area that acts as a natural wavebreaker for Germany's North Sea coast, and teems with wildlife. One of the most dramatic features of this ecosystem is the extreme effect of tidal forces. At low tide, the water retreats and exposes the sea floor, allowing people to walk from one island to another, and even to the mainland.
+
+The targeted floods have to be carefully managed within this dynamic landscape, not just to protect the islanders and their livestock, but also to shield nesting birds.
+
+Some 60,000 birds nest and breed on the Halligen. This includes 71% of Germany's total breeding population of sandwich terns, 49% of its Arctic terns, and 53% of its great black-backed gulls, according to a study by the World Wide Fund For Nature (WWF) in Germany. They find plenty of food in the salt marshes and on the sea floor during low tide. The winter floods tend to keep the islands free of land predators. To protect these birds, the openings and pipe tested by Deicke and his team are all closed during the spring and summer.
+
+Based on preliminary, unpublished results from the targeted flooding tests that will conclude this year, Deicke believes the measures can help Nordstrandischmoor achieve the necessary growth. The pipe appears to be particularly effective, he says, spilling a thick layer of sediment onto the land that can be observed with the naked eye. Slowing the water's retreat, to let it sit on the land for longer and allow as much sediment as possible to settle, also helps.
+
+In principle, the measures could be implemented on all the Halligen. But for the islanders, targeted flooding comes with some inconvenience.
+
+Typically, land under lasts for 12 hours, until the water flows off. If storms keep pushing water onto the land, however, it can last for days. During that time, the islanders are cut off not just from the mainland, but also from other mounds with schools and shops. The experience is somewhat like a lockdown, with the added drama of being entirely surrounded by the sea: children are home-schooled, families live off stored food, any errands on the mainland or other mounds are put off.
+
+Without well-functioning global climate protection, nothing can be saved here – Hans-Ulrich Rösner
+Targeted flooding, and in particular, slowing the water's retreat, could intensify that experience. The longer the water sits on their Hallig, the longer the islanders are trapped on their mounds.
+
+"I'm in favour of [targeted flooding] and think we on the Halligen should definitely support it," says Katja Just, the mayor of Hooge, which is relatively rarely flooded because of its dyke. "But of course there are those who say, no, no, no way, that would lengthen land under, and then we can't get away." She believes, however, that the inconvenience is worth it, if it means preserving Hooge for future generations.
+
+Even if they were eventually implemented on all the Halligen, the targeted floods will only be one element of a wide-reaching and costly plan to adapt the islands to climate change.
+
+"If we want to hold on to the Halligen, there are several basic conditions," says Hans-Ulrich Rösner, the director of the WWF's Wadden Sea Office in the German town of Husum. "First, the mounds have to be raised, so people can live there. Second, the land has to grow, and that's only possible through land under. Third, the edges have to be protected from erosion." That last step has already been implemented for some decades, by fortifying the Halligen with stone edges. As a final point, Rösner emphasises that the surrounding Wadden Sea intertidal ecosystem also has to be preserved, because the Halligen ultimately can't exist without it.
+
+All these efforts, Rösner says, are going to be futile unless countries adhere to the Paris Agreement, an international treaty on climate change that aims to limit global warming: "Without well-functioning global climate protection, nothing can be saved here."
+
+Climate mounds
+
+The first of Rösner's recommendations, raising the mounds, is already underway. The state of Schleswig-Holstein is aiming to gradually convert the mounds on the Halligen into so-called "Klimawarften", or "climate mounds", which will resist the rising sea. A climate mound is up to 1.5m (5ft) higher than conventional mounds, broad enough to accommodate future expansions, and has a long, gentle westward slope to take the heft out of the incoming floods, driven by west winds.
+
+A pilot project to create three climate mounds on Hooge, Nordstrandischmoor and Langeness is nearing completion. It has turned out to be considerably more expensive than expected, costing between €3.7m (£3.2m/$4.5m) to €9m (£7.9m/$10.9m) per mound, largely because of the cost of the sand needed for construction, and its transport. Since no sand can be taken out of the protected Wadden Sea, it has to be brought in from elsewhere in the North Sea and on the mainland.
+
+The mound where Hartwig-Kruse and her family live was expanded as part of that project. The work finished last year, and cost more than €5m (£4.4m/$6m). The expansion created a new plot of raised land big enough for a second house, where one of Hartwig-Kruse's sons will live with his family. On Hooge, the mound expansion also created an additional plot. It belongs to the municipality, with the idea of building a spare house that can be used by the islanders on lower parts of the mound as they gradually rebuild their own homes, and raise the land below them, so that eventually the entire plateau is raised.
+
+We've taken the decision to stand by the Halligen. Standing by the Halligen also means making sure they stay inhabitable – Birgit Matelski
+Katja Just, the mayor of Hooge, says those who question making such a huge investment to save these sparsely populated islands should consider the bigger picture: "If the Halligen disappear, the coast will be exposed to a force that will bring enormous costs and damage. In the long term, protecting the Halligen means protecting the coast."
+
+Birgit Matelski is the director of the Agency for Coastal Defence, National Park and Marine Conservation of the state of Schleswig-Holstein, which funds the climate mounds and flooding tests. She points out that many islanders also work in coastal protection and help maintain the Halligen. In her view, abandoning the islands, and letting them vanish into the sea, would mean destroying a unique piece of cultural and environmental heritage.
+
+"We've taken the decision to stand by the Halligen," she says. "Standing by the Halligen also means making sure they stay inhabitable. Because if they're not inhabited, they can't be preserved."
+
+Some locals are sceptical about the climate mounds. They fear that a large building site will deter tourists, or that their gardens or grazing land will be reshaped or reduced.
+
+On Gröde, which has a population of only 10 people who all live on one mound, such concerns have already delayed the planned work. Without their consent, the project to expand their mound can't go ahead, but so far they haven't come to an agreement.
+
+"Finding a solution that is acceptable to everyone, that process just takes longer here," says Jürgen Kolk, the mayor of Gröde. "The necessity is there, everyone here knows that."
+
+I feel that it's a huge gift to live here, and to have raised children here, in this freedom, in this unique environment – Ruth Hartwig-Kruse
+Like the mayors of Hooge and Nordstrandischmoor, Kolk emphasises that keeping the Halligen inhabited will take more than strong mounds and dry feet. He sees an urgent need for better internet access, which would also improve educational opportunities. The schools on the Halligen tend to be visited by fewer than a dozen children, with one teacher who covers all the subjects and instructs all the year groups at once. On Gröde, there are no children at all, and the schoolhouse is currently unused. As charming as the idea of a tiny island school may seem, Kolk says that in practice, many families end up moving to the mainland for their children's education.
+
+For Hartwig-Kruse, any inconveniences of Hallig life are more than offset by her island's natural beauty. Every winter she looks forward to the arrival of the first oystercatchers that herald the warmer seasons. At low tide, she looks for shells on the sea floor. When the weather forecast signals a likely land under, she reminds her grandchildren to collect their bikes and toys from the flat land before they are swallowed by the sea. Then she works at her computer, or finishes chores around the house, until the water flows off.
+
+"I feel that it's a huge gift to live here, and to have raised children here, in this freedom, in this unique environment," she says.
+
+Thinking of her ancestors, whose rhythm of life was not that different from hers, Hartwig-Kruse feels quietly optimistic about the future of the Halligen. After all, they adapted to many dramatic changes over the centuries, moving their mound twice as their island eroded around them. Their last move to a safer place on the island was in 1919, just before a storm surge that would have drowned their old home.
+
+"If they hadn't moved, our family wouldn't be here anymore," she says. "They always thought ahead, before it was too late. And that's what we've learned from them, to tackle problems well in advance."
+
+A sargassum bloom the width of the Atlantic Ocean caused havoc on beaches, but locals in Mexico and the Caribbean are fast finding ways to turn the seaweed invasion to their advantage.
+I
+In the summer of 2018, an almost incomprehensibly large mass of stringy brown seaweed appeared in the Atlantic Ocean. It stretched from one coast to the other, from the shores of West Africa to the Gulf of Mexico. Spanning 8,850 kilometres (5,000 miles), the seaweed bloom, known as the great Atlantic sargassum belt, was the largest ever recorded. Researchers analysing satellite images of the bloom estimated its mass to be more than 20 million tonnes – heavier than 200 fully loaded aircraft carriers.
+
+While the 2018 event was a record, sargassum blooms have been a nuisance in the Atlantic for some years, where they harm coastal biodiversity, fisheries and the tourism industry in the Caribbean and Mexico. Barbados declared a national emergency in June 2018 after its shorelines were engulfed by sargassum.
+
+And it is a problem that appears to be getting worse in the Atlantic. After analysing 19 years of satellite data, researchers at the University of South Florida found that since 2011 the sargassum bloom has appeared annually and is growing in size.
+
+“2011 was a tipping point. Before that we did not see much sargassum. After that we are seeing recurring, massive sargassum blooms in the central Atlantic,” says Mengqiu Wang of the University of South Florida, one of the team who discovered the Atlantic-spanning bloom in 2018. The blooms are at their largest in June and July, she says.
+
+Other researchers, such as Elizabeth Johns of the US’s National Oceanic and Atmospheric Administration, agree that 2011 was a tipping point for sargassum in the Atlantic, suggesting future blooms are likely to be even larger. Indeed, a Caribbean research cruise in autumn 2014 recorded sargassum concentrations 10 times that of the 2011 event, and 300 times greater than any other autumn in the previous 20 years, according to research by marine scientist Amy Siuda and colleagues at the Sea Education Association, Woods Hole in Massachusetts.
+
+While the exact causes for the boom have yet to be pinned down, Wang’s team believes that a number of environmental factors are contributing to the sargassum explosion. Among them are abnormal ocean currents and wind patterns linked to climate change.
+
+The destruction of the Amazon rainforest is also thought to have fueled the growth of sargassum. As huge swathes of the rainforest are cut down, it is replaced with heavily fertilised farmland. The fertiliser ends up in the Amazon river and eventually in the Atlantic where it floods the ocean with nutrients such as nitrogen. Records show during the large 2018 bloom there were higher levels of nutrients in the central Atlantic region where the sargassum grows compared with 2010, says Wang.
+
+When scattered across open water, sargassum – sometimes known as the “floating golden rainforest” –  serves as an important breeding ground for turtle hatchlings and a refuge for hundreds of fish species. The problem comes when sargassum washes up on the beach and starts to rot, emitting hydrogen sulfide – a gas that smells like rotten eggs. “It is a good vegetation in the ocean, on the beach it turns into something bad,” says Wang.
+
+The pungent smell and unsightly appearance are driving tourists away from beach resorts in the Caribbean and Mexico’s Yucatan peninsula – a blow to the region’s economy, which relies heavily on tourism. In 2018, Laura Beristain Navarrete, mayor of coastal town Playa del Carmen in Mexico, told a local newspaper that tourist numbers in the region had fallen by up to 35% due to sargassum.
+
+Removing the seaweed from the beaches is a costly and time-consuming process. In 2019, Mexico’s president, Andrés Manuel López Obrador, estimated that clearing all the sargassum that year would cost $2.7m (£2m) and enlisted the country's navy to help with the massive clean-up.
+
+Besides its catastrophic impact on tourism, sargassum is also a public health concern, says Wang. When it decays, it attracts insects that can cause skin irritation, while hydrogen sulphide exposure from rotting sargassum has been linked to neurological, digestive and respiratory symptoms.
+
+The stranded seaweed poses a serious threat to marine wildlife too. The huge piles of seaweed prevent turtles from nesting and ensnare dolphins and fish in the coral reefs. “Sargassum can suffocate coral reefs by covering them and decimate breeding grounds for turtles,” says Mike Allen, a marine scientist from the University of Exeter who has developed a cheap way of converting sargassum into biofuels and sustainable fertiliser.
+
+Allen and a team of researchers from the universities of Exeter and Bath devised a process called hydrothermal liquefaction (HTL), which uses high pressure and temperature to split wet biomass into four components: a bio oil that can be upgraded to biodiesel, water-soluble organic compounds used to produce fertiliser, carbon dioxide (which the researchers say they aim to capture rather than release into the atmosphere) and char, a solid material containing all the metals found in the seaweed, which the team also plans to recover at a later stage.
+
+“I liken it to ‘geology in a tin’,” says Allen. “Because the pressures and temperatures are so high, we can put pretty much anything in there. We can convert plastic alongside the [sargassum] biomass in the same process,” he says. Nylon fishing nets tangled in the coral reefs are also turned into fertiliser.
+
+There are some drawbacks, though. The process is energy-intensive and runs on fossil fuels, says Allen, though heat from the process can be recovered and reused to improve efficiency.
+
+The project is still in the research phase and the researchers have converted 100kg (220lb) of sargassum to date but Allen hopes to scale it up and partner with companies and governments to tackle the issue. The aim is to find a solution to the sargassum problem that is economically viable and supports the local community. “What we are trying to do is make the clean-up of contaminated areas profitable, so that there is an incentive to do it, improve quality of life and protect the environment,” says Allen.
+
+In parts of Mexico and the Caribbean, locals are taking the matter into their own hands and finding innovative ways to turn the environmental disaster on their coastlines into a sustainable economic opportunity. Some are turning sargassum into materials from paper to building materials. In Playa del Carmen, for example – one of Mexico’s most popular tourist destinations – a community group is tackling the sargassum invasion by turning it into soap.
+
+The Biomaya Initiative, an organisation established to deal with the sargassum glut, hires local residents to collect the foul-smelling seaweed from the beaches, and then cleans it to remove metals and plastics. Then women living in nearby villages, that date back to the Maya period, mix the processed sargassum with glycerin and honey to make soap which they sell for $2 (£1.50) a bar to hotels, hospitals and shops in the area.
+
+“As a community we decided to do this to protect the planet and take care of our beaches,” says Gonzalo Balderas, founder of Biomaya Initiative. In the past three years, tourist numbers have plummeted due to sargassum in Playa del Carmen, Balderas says. “It’s supposed to be a dream beach.”
+
+While in St Catherine’s, a coastal community in south-east Jamaica, Daveian Morrison is using sargassum to produce animal feed. Morrison founded Awganic Inputs in 2018 after receiving reports of sargassum piled 15ft (4.6m) high on the beaches. “It affects local tourism and leisure activities and suffocates fish and turtle hatchlings,” says Morrison. “I figured it is time for action.”
+
+Morrison wanted to solve two major problems in Jamaica: sargassum and the lack of affordable fodder for goats, a local delicacy. The country currently imports $15m (£11.3m) of mutton and goat meat each year. “Our goats look very lean as they do not consume enough minerals. Sargassum has many nutrients, minerals and salt,” he says.
+
+Awganic Inputs buys sargassum from local collectors and dries, cleans and shreds the seaweed while it is still fairly fresh, before mixing it with crop biproduct to produce fodder for goats. For the more rotten sargassum, it is turned into charcoal and sold for use in cosmetics.
+
+Awganic Inputs recently carried out a pilot project, converting 544kg (1,200lb) of sargassum into goat feed and selling it to farmers for $0.26 (20p) a kilogram. The response was very positive, Morrison says. While the coronavirus pandemic has stalled production for now, Morrison hopes to scale up and start selling cheap sargassum feed across Jamaica next year. “Many people see sargassum as a nuisance,” he says. “They are glad that something is happening with it.”
+
+Such efforts to tackle the sargassum glut are undoubtedly small compared to the overwhelming mounds decomposing on Atlantic beaches. Goat feed, soap and biofuels won’t make much of a dent in these heaps any time soon, but they are a sign of coastal resilience – and of local economies adapting to turn a rotten mess into something of use, whatever the changing oceans wash up.
