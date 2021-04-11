@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-04-11">
+    <creator>NetworkX 2.5.1</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="David Tree" label="David Tree" />
+      <node id="Elizabeth Patterson" label="Elizabeth Patterson" />
+      <node id="Ellen Drew" label="Ellen Drew" />
+      <node id="Esme Percy" label="Esme Percy" />
+      <node id="Everley Gregg" label="Everley Gregg" />
+      <node id="Glorious Betsy" label="Glorious Betsy" />
+      <node id="Guy Middleton" label="Guy Middleton" />
+      <node id="Jean Cadell" label="Jean Cadell" />
+      <node id="Leslie Howard" label="Leslie Howard" />
+      <node id="Marie Lohr" label="Marie Lohr" />
+      <node id="Ray Milland" label="Ray Milland" />
+      <node id="Ronald Culver" label="Ronald Culver" />
+      <node id="Scott Sunderland" label="Scott Sunderland" />
+      <node id="TZ:Kizino Kizi" label="TZ:Kizino Kizi" />
+      <node id="The Third Man" label="The Third Man" />
+      <node id="Wendy Hiller" label="Wendy Hiller" />
+      <node id="Wilfrid Lawson" label="Wilfrid Lawson" />
+      <node id="Young Winston" label="Young Winston" />
+    </nodes>
+    <edges>
+      <edge source="David Tree" target="Esme Percy" id="0" />
+      <edge source="David Tree" target="Everley Gregg" id="1" />
+      <edge source="David Tree" target="Jean Cadell" id="2" />
+      <edge source="David Tree" target="Leslie Howard" id="3" />
+      <edge source="David Tree" target="Marie Lohr" id="4" />
+      <edge source="David Tree" target="Scott Sunderland" id="5" />
+      <edge source="David Tree" target="Wendy Hiller" id="6" />
+      <edge source="David Tree" target="Wilfrid Lawson" id="7" />
+      <edge source="Ellen Drew" target="Guy Middleton" id="8" />
+      <edge source="Ellen Drew" target="Ray Milland" id="9" />
+      <edge source="Ellen Drew" target="Ronald Culver" id="10" />
+      <edge source="Esme Percy" target="Everley Gregg" id="11" />
+      <edge source="Esme Percy" target="Jean Cadell" id="12" />
+      <edge source="Esme Percy" target="Leslie Howard" id="13" />
+      <edge source="Esme Percy" target="Marie Lohr" id="14" />
+      <edge source="Esme Percy" target="Scott Sunderland" id="15" />
+      <edge source="Esme Percy" target="Wendy Hiller" id="16" />
+      <edge source="Esme Percy" target="Wilfrid Lawson" id="17" />
+      <edge source="Everley Gregg" target="Jean Cadell" id="18" />
+      <edge source="Everley Gregg" target="Leslie Howard" id="19" />
+      <edge source="Everley Gregg" target="Marie Lohr" id="20" />
+      <edge source="Everley Gregg" target="Scott Sunderland" id="21" />
+      <edge source="Everley Gregg" target="Wendy Hiller" id="22" />
+      <edge source="Everley Gregg" target="Wilfrid Lawson" id="23" />
+      <edge source="Guy Middleton" target="Ray Milland" id="24" />
+      <edge source="Guy Middleton" target="Ronald Culver" id="25" />
+      <edge source="Jean Cadell" target="Leslie Howard" id="26" />
+      <edge source="Jean Cadell" target="Marie Lohr" id="27" />
+      <edge source="Jean Cadell" target="Scott Sunderland" id="28" />
+      <edge source="Jean Cadell" target="Wendy Hiller" id="29" />
+      <edge source="Jean Cadell" target="Wilfrid Lawson" id="30" />
+      <edge source="Leslie Howard" target="Marie Lohr" id="31" />
+      <edge source="Leslie Howard" target="Scott Sunderland" id="32" />
+      <edge source="Leslie Howard" target="Wendy Hiller" id="33" />
+      <edge source="Leslie Howard" target="Wilfrid Lawson" id="34" />
+      <edge source="Marie Lohr" target="Scott Sunderland" id="35" />
+      <edge source="Marie Lohr" target="Wendy Hiller" id="36" />
+      <edge source="Marie Lohr" target="Wilfrid Lawson" id="37" />
+      <edge source="Ray Milland" target="Ronald Culver" id="38" />
+      <edge source="Scott Sunderland" target="Wendy Hiller" id="39" />
+      <edge source="Scott Sunderland" target="Wilfrid Lawson" id="40" />
+      <edge source="Wendy Hiller" target="Wilfrid Lawson" id="41" />
+    </edges>
+  </graph>
+</gexf>
