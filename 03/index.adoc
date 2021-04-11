@@ -1,1 +1,50 @@
-= HW3 - TBD!
+= HW3: Social Network Analysis
+
+TODO
+
+== Run project
+
+=== Create environment
+
+[source, bash]
+----
+virtualenv ddw-pondepe1-hw-2
+----
+
+=== Activate environment
+
+[source, bash]
+----
+source ddw-pondepe1-hw-2/bin/activate
+----
+
+=== Install requirements and run jupyter server
+
+[source, bash]
+----
+./bin/run.sh
+----
+
+== Clean environment
+
+=== Deactivate environment
+
+[source, bash]
+----
+deactivate
+----
+
+=== Remove environment
+
+[source, bash]
+----
+./bin/remove.sh
+----
+
+== Issues during implementation
+
+Missing CSV header line +
+Values separated by ; +
+
+Pandas grouping by movies - but very useful library
+Gephi problems - OpenGL
