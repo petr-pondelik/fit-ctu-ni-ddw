@@ -41,6 +41,117 @@ deactivate
 ./bin/remove.sh
 ----
 
+== Dataset Description
+
+Dataset contains list of 44 869 movie casts. +
+The dataset was provided in CSV format. +
+CSV missed column headers - they were detected from the original HTML file and added during the development.
+
+=== Explanations
+
+"s a" actor value - supporting actor
+
+== Processing dataset into graph
+
+Dataset was loaded into memory using python pandas module. +
+
+Dataset was transformed into actors relations graph. +
+Each node of the graph represents specific actor. +
+Each edge of the graph represents relation between two actors in the meaning of appearance in the same movie.
+
+Without any other processing, the supporting actor ("s a" actor value) was top item for all the centralities, so the "s a" value was not added as the graph node.
+
+== General statistics
+
+|===
+| Statistic | Value
+| Number of nodes | 16613
+| Number of edges | 152266
+| Density | 0.0011034761404392502
+| Number of components | 749
+|===
+
+== Centralities
+
+=== Degree centrality
+
+|===
+| Actor | Degree centrality
+| Humphrey Bogart | 0.025824705032506622
+| James Stewart | 0.02245364796532627
+| Gary Cooper | 0.022212858174813388
+| John Gielgud | 0.022212858174813388
+| John Carradine | 0.022032265831928726
+| Peter Lorre | 0.02161088369853118
+| C.Aubrey Smith | 0.020226342403082107
+| Henry Fonda | 0.019443775583915242
+| Burt Lancaster | 0.018721406212376595
+| Basil Rathbone | 0.018601011317120154
+|===
+
+=== Closeness centrality
+
+|===
+| Actor | Closeness centrality
+| Charlton Heston | 0.3448314740754543
+| John Gielgud | 0.34392751970400837
+| Burt Lancaster | 0.3432436777371951
+| Henry Fonda | 0.34034977415556733
+| John Carradine | 0.3398032399416941
+| James Stewart | 0.33871542040968683
+| David Niven | 0.3382002705165573
+| Robert Mitchum | 0.3363793322090303
+| Humphrey Bogart | 0.33579389045964547
+| Laurence Olivier | 0.33534757288931855
+|===
+
+=== Betweenness centrality
+
+|===
+| Actor | Betweenness centrality
+|Vincent Price| 0.010911758431554602
+|Burt Lancaster| 0.010772380644409017
+|John Carradine| 0.010626361313336918
+|Robert deNiro| 0.010466733936323008
+|Humphrey Bogart| 0.010386116460623892
+|Gene Hackman| 0.010042626763144201
+|John Gielgud| 0.009595726372221362
+|Jack Nicholson| 0.009222947872330209
+|Charlton Heston| 0.009194069187636999
+|James Stewart| 0.008190657113060142
+
+
+|===
+
+=== Eigenvector centrality
+
+|===
+| Actor | Eigenvector centrality
+|C.Aubrey Smith| 0.10527677021679366
+|John Carradine| 0.09890125927888967
+|James Stewart| 0.09305085440923555
+|Peter Lorre| 0.09255638847118301
+|John Gielgud| 0.091583074734001
+|Basil Rathbone| 0.08981915239405143
+|Gary Cooper| 0.08938950751216483
+|David Niven| 0.08746691901018518
+|Andy Devine| 0.08728714563105724
+|Humphrey Bogart| 0.08503242693045049
+
+|===
+
+== Communities
+
+Based on the dataset and the graph construction, communities represent groups of actors that appeared in common movies.
+
+The largest clique community in dataset is of size 59 nodes.
+
+    {'Lela Mourad': 1, 'Mervyn Johns': 1, 'Leonardo DiCaprio': 1, 'Laurence Olivier': 1, 'Basil Rathbone': 1, 'Norman Wooland': 1, 'Beverly Bane': 1, 'Nietta Zocchi': 1, 'John Gielgud': 1, 'Laurence Harvey': 1, 'Antionio Pierfrederici': 1, 'Roberto Bisacco': 1, 'Harry Hilliard': 1, 'John Barrymore': 1, 'Norma Shearer': 1, 'Natasha Peryy': 1, 'Gustav Serena': 1, 'Sir Godrey Teale': 1, 'C.Aubrey Smith': 1, 'Leslie Howard': 1, 'Conway Tearle': 1, 'Francesca Bertini': 1, 'Mario Caserini': 1, 'Enzo Fiermonte': 1, 'Bill Travers': 1, 'Esmeralda Ruspoli': 1, 'Flora Robson': 1, 'Ibrahim Hamouda': 1, 'Violet KembleCooper': 1, 'td> Claire Danes<': 1, 'Julia M. Taylor': 1, 'George A. Lessey': 1, 'Michael York': 1, 'Maria Gasperini': 1, 'Reginald Denny': 1, 'Francis X. Bushman': 1, 'Paul Panzer': 1, 'Robert Warwick': 1, 'Ralph Forbes': 1, 'Sebastian Cabot': 1, 'Rosemarie Dexter': 1, 'Paul Hardwick': 1, 'Henry Kolker': 1, 'Milo OShea': 1, 'Virginia Hammond': 1, 'John McEnery': 1, 'Meynier': 1, 'Aldo Zollo': 1, 'Lydia Sherwood': 1, 'Susan Shentall': 1, 'Olivia Hussey': 1, 'Florence Lawrence': 1, 'Andy Devine': 1, 'Bruce Robinson': 1, 'Edna May Oliver': 1, 'Leonard Whiting': 1, 'Gulio Garbinetti': 1, 'Mary Malone': 1, 'Theda Bara': 1}
+
+== Kevin Bacon numbers
+
+TODO
+
 == Issues during implementation
 
 Missing CSV header line +
