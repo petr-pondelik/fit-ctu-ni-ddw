@@ -300,56 +300,56 @@ Following table describes general statistics of the reduced graph:
 
 === Main component full view
 
-image::./results/gephi_screenshots/main_component[,900,]
+image::./results/gephi_screenshots/main_component.png[,900,]
 
 === Main component outer view
 
-image::./results/gephi_screenshots/main_component_outer[,900,]
+image::./results/gephi_screenshots/main_component_outer.png[,900,]
 
 === Isolated components
 
-image::./results/gephi_screenshots/isolated_components[,900,]
+image::./results/gephi_screenshots/isolated_components.png[,900,]
 
 === Isolated components zoom
 
-image::./results/gephi_screenshots/isolated_components_zoom[,900,]
+image::./results/gephi_screenshots/isolated_components_zoom.png[,900,]
 
 As we can see, isolated components are not connected to the main component. +
 Theoretically, I assume that Kevin Bacon number should equal to `len(G_reduced.nodes())` for the actors within the isolated components.
 
 Lets test e.g. the `Matthew Settle` Kevin Bacon number.
 
-image::./results/gephi_screenshots/isolated_actor_kb_number_test[,900,]
+image::./results/gephi_screenshots/isolated_actor_kb_number_test.png[,900,]
 
 As we can see, KB number is equal to `len(G_reduced.nodes())`.
 
 === Kevin Bacon number partitioning
 
-image::./results/gephi_screenshots/kevin_bacon_partitioning[,900,]
+image::./results/gephi_screenshots/kevin_bacon_partitioning.png[,900,]
 
 === networkx community partitioning
 
-image::./results/gephi_screenshots/community_partitioning[,900,]
+image::./results/gephi_screenshots/community_partitioning.png[,900,]
 
 === Degree centrality ranking
 
-image::./results/gephi_screenshots/degree_centrality_ranking[,900,]
+image::./results/gephi_screenshots/degree_centrality_ranking.png[,900,]
 
-image::./results/gephi_screenshots/degree_centrality_zoom[,900,]
+image::./results/gephi_screenshots/degree_centrality_zoom.png[,900,]
 
 === Closeness centrality ranking
 
-image::./results/gephi_screenshots/closeness_centrality_ranking[,900,]
+image::./results/gephi_screenshots/closeness_centrality_ranking.png[,900,]
 
 === Betweenness centrality ranking
 
-image::./results/gephi_screenshots/betweeness_centrality_ranking[,900,]
+image::./results/gephi_screenshots/betweeness_centrality_ranking.png[,900,]
 
 === Eigenvector centrality ranking
 
-image::./results/gephi_screenshots/eigenvector_centrality_ranking[,900,]
+image::./results/gephi_screenshots/eigenvector_centrality_ranking.png[,900,]
 
-image::./results/gephi_screenshots/eigenvector_centrality_zoom[,900,]
+image::./results/gephi_screenshots/eigenvector_centrality_zoom.png[,900,]
 
 == Issues during implementation
 
