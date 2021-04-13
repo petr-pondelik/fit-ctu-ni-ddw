@@ -61,14 +61,19 @@ Each edge of the graph represents relation between two actors in the meaning of 
 
 Without any other processing, the supporting actor ("s a" actor value) was top item for all the centralities, so the "s a" value was not added as the graph node.
 
+There were some records with structure not corresponding with the CSV header. +
+E.g. `"JJo5";"Jumanji";"1995";"Robin Williams";"Und"`. +
+Processing of this record would result into actor "1995" so these records were skipped within the graph construction.
+
 == General statistics
 
 |===
 | Statistic | Value
-| Number of nodes | 16613
-| Number of edges | 152266
-| Density | 0.0011034761404392502
-| Number of components | 749
+
+| Number of nodes | 16610
+| Number of edges | 152251
+| Density | 0.0011037660504019404
+| Number of components | 748
 |===
 
 == Centralities
@@ -77,48 +82,51 @@ Without any other processing, the supporting actor ("s a" actor value) was top i
 
 |===
 | Actor | Degree centrality
-| Humphrey Bogart | 0.025824705032506622
-| James Stewart | 0.02245364796532627
-| Gary Cooper | 0.022212858174813388
-| John Gielgud | 0.022212858174813388
-| John Carradine | 0.022032265831928726
-| Peter Lorre | 0.02161088369853118
-| C.Aubrey Smith | 0.020226342403082107
-| Henry Fonda | 0.019443775583915242
-| Burt Lancaster | 0.018721406212376595
-| Basil Rathbone | 0.018601011317120154
+
+| Humphrey Bogart | 0.02582936961888133
+| James Stewart | 0.022457703654645073
+| Gary Cooper | 0.02221687037148534
+| John Gielgud | 0.02221687037148534
+| John Carradine | 0.02203624540911554
+| Peter Lorre | 0.021614787163586006
+| C.Aubrey Smith | 0.020229995785417544
+| Henry Fonda | 0.019447287615148412
+| Burt Lancaster | 0.018724787765669215
+| Basil Rathbone | 0.018604371124089348
 |===
 
 === Closeness centrality
 
 |===
 | Actor | Closeness centrality
-| Charlton Heston | 0.3448314740754543
-| John Gielgud | 0.34392751970400837
-| Burt Lancaster | 0.3432436777371951
-| Henry Fonda | 0.34034977415556733
-| John Carradine | 0.3398032399416941
-| James Stewart | 0.33871542040968683
-| David Niven | 0.3382002705165573
-| Robert Mitchum | 0.3363793322090303
-| Humphrey Bogart | 0.33579389045964547
-| Laurence Olivier | 0.33534757288931855
+
+| Charlton Heston | 0.344845635801561
+| John Gielgud | 0.34395054343522674
+| Burt Lancaster | 0.3432575665174259
+| Henry Fonda | 0.340372001379352
+| John Carradine | 0.33982534652271745
+| James Stewart | 0.3387372876772099
+| David Niven | 0.3382220248321082
+| Robert Mitchum | 0.33639206310997954
+| Humphrey Bogart | 0.3358151203676688
+| Laurence Olivier | 0.3353687061165985
 |===
 
 === Betweenness centrality
 
 |===
 | Actor | Betweenness centrality
-|Vincent Price| 0.010911758431554602
-|Burt Lancaster| 0.010772380644409017
-|John Carradine| 0.010626361313336918
-|Robert deNiro| 0.010466733936323008
-|Humphrey Bogart| 0.010386116460623892
-|Gene Hackman| 0.010042626763144201
-|John Gielgud| 0.009595726372221362
-|Jack Nicholson| 0.009222947872330209
-|Charlton Heston| 0.009194069187636999
-|James Stewart| 0.008190657113060142
+
+| Vincent Price | 0.010914519943179804)
+| Burt Lancaster | 0.010773316674318037)
+| John Carradine | 0.010629300889984141)
+| Robert deNiro | 0.010469870030993679)
+| Humphrey Bogart | 0.01038915996299399)
+| Gene Hackman | 0.010043675685413013)
+| John Gielgud | 0.009598596782090352)
+| Jack Nicholson | 0.009224082251596292)
+| Charlton Heston | 0.009194283586915035)
+| James Stewart | 0.00819317097422135)
 
 
 |===
@@ -127,16 +135,17 @@ Without any other processing, the supporting actor ("s a" actor value) was top i
 
 |===
 | Actor | Eigenvector centrality
-|C.Aubrey Smith| 0.10527677021679366
-|John Carradine| 0.09890125927888967
-|James Stewart| 0.09305085440923555
-|Peter Lorre| 0.09255638847118301
-|John Gielgud| 0.091583074734001
-|Basil Rathbone| 0.08981915239405143
-|Gary Cooper| 0.08938950751216483
-|David Niven| 0.08746691901018518
-|Andy Devine| 0.08728714563105724
-|Humphrey Bogart| 0.08503242693045049
+
+| C.Aubrey Smith | 0.10527683317479046)
+| John Carradine | 0.09890130374344182)
+| James Stewart | 0.09305088872021564)
+| Peter Lorre | 0.09255643718949176)
+| John Gielgud | 0.0915831074918527)
+| Basil Rathbone | 0.08981921063491403)
+| Gary Cooper | 0.08938955258000875)
+| David Niven | 0.08746695187553871)
+| Andy Devine | 0.08728719728815929)
+| Humphrey Bogart | 0.08503246285164423)
 
 |===
 
@@ -146,16 +155,214 @@ Based on the dataset and the graph construction, communities represent groups of
 
 The largest clique community in dataset is of size 59 nodes.
 
-    {'Lela Mourad': 1, 'Mervyn Johns': 1, 'Leonardo DiCaprio': 1, 'Laurence Olivier': 1, 'Basil Rathbone': 1, 'Norman Wooland': 1, 'Beverly Bane': 1, 'Nietta Zocchi': 1, 'John Gielgud': 1, 'Laurence Harvey': 1, 'Antionio Pierfrederici': 1, 'Roberto Bisacco': 1, 'Harry Hilliard': 1, 'John Barrymore': 1, 'Norma Shearer': 1, 'Natasha Peryy': 1, 'Gustav Serena': 1, 'Sir Godrey Teale': 1, 'C.Aubrey Smith': 1, 'Leslie Howard': 1, 'Conway Tearle': 1, 'Francesca Bertini': 1, 'Mario Caserini': 1, 'Enzo Fiermonte': 1, 'Bill Travers': 1, 'Esmeralda Ruspoli': 1, 'Flora Robson': 1, 'Ibrahim Hamouda': 1, 'Violet KembleCooper': 1, 'td> Claire Danes<': 1, 'Julia M. Taylor': 1, 'George A. Lessey': 1, 'Michael York': 1, 'Maria Gasperini': 1, 'Reginald Denny': 1, 'Francis X. Bushman': 1, 'Paul Panzer': 1, 'Robert Warwick': 1, 'Ralph Forbes': 1, 'Sebastian Cabot': 1, 'Rosemarie Dexter': 1, 'Paul Hardwick': 1, 'Henry Kolker': 1, 'Milo OShea': 1, 'Virginia Hammond': 1, 'John McEnery': 1, 'Meynier': 1, 'Aldo Zollo': 1, 'Lydia Sherwood': 1, 'Susan Shentall': 1, 'Olivia Hussey': 1, 'Florence Lawrence': 1, 'Andy Devine': 1, 'Bruce Robinson': 1, 'Edna May Oliver': 1, 'Leonard Whiting': 1, 'Gulio Garbinetti': 1, 'Mary Malone': 1, 'Theda Bara': 1}
+    ('Beverly Bane', 1)
+    ('Ralph Forbes', 1)
+    ('Laurence Harvey', 1)
+    ('Gulio Garbinetti', 1)
+    ('Edna May Oliver', 1)
+    ('John McEnery', 1)
+    ('John Gielgud', 1)
+    ('Paul Hardwick', 1)
+    ('Robert Warwick', 1)
+    ('Milo OShea', 1)
+    ('Paul Panzer', 1)
+    ('Susan Shentall', 1)
+    ('Mario Caserini', 1)
+    ('Rosemarie Dexter', 1)
+    ('C.Aubrey Smith', 1)
+    ('Gustav Serena', 1)
+    ('Virginia Hammond', 1)
+    ('Henry Kolker', 1)
+    ('Francis X. Bushman', 1)
+    ('Leslie Howard', 1)
+    ('Enzo Fiermonte', 1)
+    ('Basil Rathbone', 1)
+    ('Francesca Bertini', 1)
+    ('Olivia Hussey', 1)
+    ('Theda Bara', 1)
+    ('Sir Godrey Teale', 1)
+    ('Antionio Pierfrederici', 1)
+    ('Lela Mourad', 1)
+    ('Norman Wooland', 1)
+    ('Violet KembleCooper', 1)
+    ('Julia M. Taylor', 1)
+    ('Ibrahim Hamouda', 1)
+    ('Norma Shearer', 1)
+    ('td> Claire Danes<', 1)
+    ('Laurence Olivier', 1)
+    ('Natasha Peryy', 1)
+    ('Sebastian Cabot', 1)
+    ('Maria Gasperini', 1)
+    ('Flora Robson', 1)
+    ('Lydia Sherwood', 1)
+    ('Nietta Zocchi', 1)
+    ('Mary Malone', 1)
+    ('Esmeralda Ruspoli', 1)
+    ('Aldo Zollo', 1)
+    ('Michael York', 1)
+    ('Harry Hilliard', 1)
+    ('John Barrymore', 1)
+    ('Roberto Bisacco', 1)
+    ('Leonard Whiting', 1)
+    ('Bruce Robinson', 1)
+    ('Reginald Denny', 1)
+    ('George A. Lessey', 1)
+    ('Conway Tearle', 1)
+    ('Andy Devine', 1)
+    ('Leonardo DiCaprio', 1)
+    ('Bill Travers', 1)
+    ('Mervyn Johns', 1)
+    ('Meynier', 1)
+    ('Florence Lawrence', 1)
+
+Except the largest community, there are e.g. 5 communities of size greater or equal to 35.
 
 == Kevin Bacon numbers
 
-TODO
+Kevin Bacon number represents distance of an actor from Kevin Bacon measured in length of the path from the given actor's node to Kevin Bacon's node in the relational graph.
+
+As we can see, there are some actors with infinite Kevin Bacon number in the graph. It means that the path between the given actors and Kevin Bacon doesn't exist. In other words, these actors didn't play with anyone who played with anyone who played (the relation doesn't exist recursively) in the same movie with Kevin Bacon. It implies that the graph is divided into more components.
+
+In later development, python's `inf` constant was replaces by `len(G.nodes())` value due to `GEFX` data type constraint over the `kevin_bacon_number` node attribute.
+
+**Actors by Kevin Bacon number descending**
+
+|===
+| Actor | Kevin Bacon number
+
+| Abel Gance | inf
+| Abel Salazar | inf
+| Abishek Kapoor | inf
+| Adolfas Mekas | inf
+| Adolph Gance | inf
+| Adriana Asti | inf
+| Agnes deMille | inf
+| Aida Leiner | inf
+| Ajay Devgan | inf
+| Ajita Wist | inf
+|===
+
+Next tables contain top and bottom 10 actors by Kevin Bacon number including only finite values.
+
+**Actors by Kevin Bacon number descending (finite only)**
+
+|===
+| Actor | Kevin Bacon number
+
+| Haradhan Banerjee | 4
+| Haren Chatterjee | 4
+| Kazuo Hasegawa | 4
+| Adrienne Servatie | 3
+| Agnes Jaoui | 3
+| Akira Emoto | 3
+| Alain Bécourt | 3
+| Alan Delon | 3
+| Alan Freed | 3
+| Albert Steinrück | 3
+|===
+
+In the following table we can see that the only actor with zero KB number value is Kevin Bacon. +
+Actors having KB number value equal to 1 played in some movie with Kevin Bacon.
+
+**Actors by Kevin Bacon number ascending**
+
+|===
+| Actor | Kevin Bacon number
+
+| Kevin Bacon | 0
+| Aaron Michael Metchik | 1
+| Aaron Spelling | 1
+| Abe Vigoda | 1
+| Adam Roarke | 1
+| Adam West | 1
+| Adolphe Menjou | 1
+| Aerik Egan | 1
+| Aidan Quinn | 1
+| Al Karth | 1
+|===
+
+== Visualizations
+
+=== Graph reduction
+
+To be able to visualize the dataset, actors appearing in movies with 5 or more casts were removed from the graph for visualization.
+
+Following table describes general statistics of the reduced graph:
+
+|===
+| Statistic | Value
+
+| Number of nodes | 4853
+| Number of edges | 43510
+| Density | 0.003695625843322112
+| Number of components | 15
+|===
+
+=== Main component full view
+
+image::./results/gephi_screenshots/main_component[,900,]
+
+=== Main component outer view
+
+image::./results/gephi_screenshots/main_component_outer[,900,]
+
+=== Isolated components
+
+image::./results/gephi_screenshots/isolated_components[,900,]
+
+=== Isolated components zoom
+
+image::./results/gephi_screenshots/isolated_components_zoom[,900,]
+
+As we can see, isolated components are not connected to the main component. +
+Theoretically, I assume that Kevin Bacon number should equal to `len(G_reduced.nodes())` for the actors within the isolated components.
+
+Lets test e.g. the `Matthew Settle` Kevin Bacon number.
+
+image::./results/gephi_screenshots/isolated_actor_kb_number_test[,900,]
+
+As we can see, KB number is equal to `len(G_reduced.nodes())`.
+
+=== Kevin Bacon number partitioning
+
+image::./results/gephi_screenshots/kevin_bacon_partitioning[,900,]
+
+=== networkx community partitioning
+
+image::./results/gephi_screenshots/community_partitioning[,900,]
+
+=== Degree centrality ranking
+
+image::./results/gephi_screenshots/degree_centrality_ranking[,900,]
+
+image::./results/gephi_screenshots/degree_centrality_zoom[,900,]
+
+=== Closeness centrality ranking
+
+image::./results/gephi_screenshots/closeness_centrality_ranking[,900,]
+
+=== Betweenness centrality ranking
+
+image::./results/gephi_screenshots/betweeness_centrality_ranking[,900,]
+
+=== Eigenvector centrality ranking
+
+image::./results/gephi_screenshots/eigenvector_centrality_ranking[,900,]
+
+image::./results/gephi_screenshots/eigenvector_centrality_zoom[,900,]
 
 == Issues during implementation
+
+TODO
 
 Missing CSV header line +
 Values separated by ; +
 
 Pandas grouping by movies - but very useful library
 Gephi problems - OpenGL
+
+',\s\{'degree_centrality':\s(\d|\.|e-|)+, 'kevin_bacon_number':
+
+== Ideas for extensions/improvements/future work
+
+TODO
