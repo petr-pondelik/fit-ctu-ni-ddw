@@ -1,7 +1,5 @@
 = HW3: Social Network Analysis
 
-TODO
-
 == Run project
 
 === Create environment
@@ -353,16 +351,22 @@ image::./results/gephi_screenshots/eigenvector_centrality_zoom.png[,900,]
 
 == Issues during implementation
 
-TODO
+I had some minor issues with processing the CSV file.
 
-Missing CSV header line +
-Values separated by ; +
+The CSV header line was missing so I added the header line at the beginning of the file.
 
-Pandas grouping by movies - but very useful library
-Gephi problems - OpenGL
+I also found some lines that breaks CSV format (differs in some columns from other lines).
+That led to creating nodes for including e.g. movie's year of shooting except the actor.
+I solved this by filtering out numeric values from extracted actors.
 
-',\s\{'degree_centrality':\s(\d|\.|e-|)+, 'kevin_bacon_number':
+I had to study how to perform grouping and aggregation by the given column using pandas library. It turned out as a very useful and powerful library. The grouping + aggregation is implemented in single function `value_counts` called upon the given column.
+
+Gephi had problems with OpenGL on my system. It required to export following variable:
+
+    export LIBGL_ALWAYS_SOFTWARE=1
 
 == Ideas for extensions/improvements/future work
 
-TODO
+At the end of the analysis I found out that there are more forms of "supporting actor" indication. It should be filtered out from the dataset in the future.
+
+Analysis of interpersonal relations could by used for detecting influential nodes (people) who are worth contacting e.g. for collaboration on some campaign.
