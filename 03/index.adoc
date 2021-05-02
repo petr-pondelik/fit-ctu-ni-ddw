@@ -6,14 +6,14 @@
 
 [source, bash]
 ----
-virtualenv ddw-pondepe1-hw-2
+virtualenv ddw-pondepe1-hw-3
 ----
 
 === Activate environment
 
 [source, bash]
 ----
-source ddw-pondepe1-hw-2/bin/activate
+source ddw-pondepe1-hw-3/bin/activate
 ----
 
 === Install requirements and run jupyter server
